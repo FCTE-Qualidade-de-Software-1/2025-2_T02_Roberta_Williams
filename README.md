@@ -9,16 +9,7 @@
 
 ## 📋 Descrição
 
-O **Projeto Roberta Williams** é um sistema desenvolvido pela equipe homônima para a disciplina de **Qualidade de Software**. O projeto tem como objetivo aplicar as melhores práticas de engenharia de software, incluindo metodologias ágeis, documentação completa, testes automatizados e integração contínua.
-
-## 📎 Funcionalidades
-
-• **Documentação Interativa**: Documentação completa utilizando MkDocs com tema Material Design  
-• **Controle de Versão**: Gestão completa do código com Git e GitHub  
-• **Deploy Automatizado**: Integração contínua com GitHub Actions  
-• **Metodologia Ágil**: Desenvolvimento seguindo práticas ágeis com sprints e retrospectivas  
-• **Testes Automatizados**: Cobertura de testes para garantir qualidade do código  
-• **Arquitetura Moderna**: Estrutura escalável e bem documentada
+Repositorio para a disciplina de Qualidade de software sobre o software firefox
 
 ## 📋 Pré-requisitos
 
@@ -87,10 +78,10 @@ mkdocs serve --dev-addr=127.0.0.1:8001
 
 A documentação completa do projeto inclui:
 
-- **[📋 Fase 01](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_Roberta_Williams/fases/fases01/)** - Planejamento e Concepção
-- **[📋 Fase 02](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_Roberta_Williams/fases/fases02/)** - Desenvolvimento e Implementação
-- **[📋 Fase 03](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_Roberta_Williams/fases/fases03/)** - Testes e Validação
-- **[📋 Fase 04](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_Roberta_Williams/fases/fases04/)** - Deploy e Entrega
+- **[📋 Fase 01](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_Roberta_Williams/fases/fases01/)** - 
+- **[📋 Fase 02](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_Roberta_Williams/fases/fases02/)** - 
+- **[📋 Fase 03](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_Roberta_Williams/fases/fases03/)** -
+- **[📋 Fase 04](https://fcte-qualidade-de-software-1.github.io/2025-2_T02_Roberta_Williams/fases/fases04/)** - 
 
 ## 👥 Equipe
 
