@@ -1,0 +1,146 @@
+site_name: Projeto Roberta Williams
+site_description: 'Documentação do projeto Roberta Williams - Qualidade de Software'
+site_author: 'Equipe Roberta Williams'
+site_url: 'https://fcte-qualidade-de-software-1.github.io/2025-2_T02_Roberta_Williams/'
+
+# Repository
+repo_name: 'FCTE-Qualidade-de-Software-1/2025-2_T02_Roberta_Williams'
+repo_url: 'https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_Roberta_Williams'
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2025 Equipe Roberta Williams
+
+# Theme
+theme:
+  name: 'material'
+  language: 'pt'
+  icon:
+    logo: material/library
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Navigation
+nav:
+  - 🏠 Home: index.md
+  - 📚 Fases:
+    - 📊 Fase 01: fases/fases01.md
+    - 📊 Fase 02: fases/fases02.md
+    - 📊 Fase 03: fases/fases03.md
+    - 📊 Fase 04: fases/fases04.md
+  - 📋 Planejamento: planejamento.md
+  - 📄 Gestão do projeto: gestao.md
+  - 📂 Apresentação: apresentacao.md  
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_Roberta_Williams
+      name: GitHub Repository
+  version:
+    provider: mike
+
+# CSS
+extra_css:
+  - stylesheets/extra.css
+
+# JavaScript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
