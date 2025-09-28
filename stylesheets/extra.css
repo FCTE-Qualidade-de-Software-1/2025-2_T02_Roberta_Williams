@@ -1,0 +1,121 @@
+:root {
+  --md-primary-fg-color:        #1976d2;
+  --md-primary-fg-color--light: #42a5f5;
+  --md-primary-fg-color--dark:  #1565c0;
+  --md-accent-fg-color:         #2196f3;
+}
+
+/* Custom badge styles */
+.md-content img[alt*="License"],
+.md-content img[alt*="GitHub"],
+.md-content img[alt*="Python"],
+.md-content img[alt*="MkDocs"] {
+  display: inline;
+  margin: 2px;
+  vertical-align: middle;
+}
+
+/* Custom admonition styles */
+.md-typeset .admonition {
+  border-left: 4px solid;
+  border-radius: 4px;
+}
+
+/* Table improvements */
+.md-typeset table:not([class]) {
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: white;
+  font-weight: 600;
+}
+
+/* Emoji sizing */
+.md-typeset h1 img.twemoji,
+.md-typeset h2 img.twemoji,
+.md-typeset h3 img.twemoji {
+  height: 1.2em;
+  width: 1.2em;
+  vertical-align: -0.1em;
+}
+
+/* Footer customization */
+.md-footer {
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+/* Navigation improvements */
+.md-nav__item--active > .md-nav__link {
+  font-weight: 600;
+}
+
+/* Code block improvements */
+.md-typeset .highlight {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Custom team table */
+.team-table img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+/* Status badges */
+.status-done { 
+  background: #4caf50; 
+  color: white; 
+  padding: 2px 8px; 
+  border-radius: 12px; 
+  font-size: 0.8em;
+}
+
+.status-progress { 
+  background: #ff9800; 
+  color: white; 
+  padding: 2px 8px; 
+  border-radius: 12px; 
+  font-size: 0.8em;
+}
+
+.status-todo { 
+  background: #9e9e9e; 
+  color: white; 
+  padding: 2px 8px; 
+  border-radius: 12px; 
+  font-size: 0.8em;
+}
+
+/* Custom sprint metrics */
+.sprint-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.metric-card {
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.metric-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--md-primary-fg-color);
+}
+
+.metric-label {
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.5rem;
+}
