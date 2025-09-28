@@ -94,13 +94,9 @@ A documentação completa do projeto inclui:
 
 ## 👥 Equipe
 
-| Foto | Nome | Matrícula | GitHub |
-|------|------|-----------|--------|
-| ![Daniel](https://github.com/Mach1r0.png) | **Daniel Ferreira Nunes** | 211061565 | [@Mach1r0](https://github.com/Mach1r0) |
-| ![Eduardo Ferreira](https://github.com/eduardoferre.png) | **Eduardo de Almeida Ferreira** | 221008632 | [@eduardoferre](https://github.com/eduardoferre) |
-| ![Eduardo Morais](https://github.com/Edumorais08.png) | **Eduardo de Almeida Morais** | 231011275 | [@Edumorais08](https://github.com/Edumorais08) |
-| ![Julia](https://github.com/juliatakaki.png) | **Julia Takaki Neves** | 221029249 | [@juliatakaki](https://github.com/juliatakaki) |
-| ![Matheus](https://github.com/MatheussBrant.png) | **Matheus de Siqueira Brant** | 222037737 | [@MatheussBrant](https://github.com/MatheussBrant) |
+| <a href="https://github.com/Mach1r0"><img src="https://github.com/Mach1r0.png" width="150"></a> | <a href="https://github.com/eduardoferre"><img src="https://github.com/eduardoferre.png" width="150"></a> | <a href="https://github.com/Edumorais08"><img src="https://github.com/Edumorais08.png" width="150"></a> | <a href="https://github.com/juliatakaki"><img src="https://github.com/juliatakaki.png" width="150"></a> | <a href="https://github.com/MatheussBrant"><img src="https://github.com/MatheussBrant.png" width="150"></a> |
+| :----------: | :----------: | :----------: | :----------: | :----------: |
+| [Daniel Ferreira Nunes](https://github.com/Mach1r0)<br>**211061565** | [Eduardo de Almeida Ferreira](https://github.com/eduardoferre)<br>**221008632** | [Eduardo de Almeida Morais](https://github.com/Edumorais08)<br>**231011275** | [Julia Takaki Neves](https://github.com/juliatakaki)<br>**221029249** | [Matheus de Siqueira Brant](https://github.com/MatheussBrant)<br>**222037737** |
 
 > **💡 Contato**  
 > Estamos sempre abertos para feedback, sugestões e colaborações!  
@@ -111,7 +107,6 @@ A documentação completa do projeto inclui:
 | 📌 Versão | 📆 Data | ✍️ Descrição | 👤 Autor | 🔍 Revisor |
 |-----------|---------|--------------|----------|------------|
 | 1.0 | 28/09/25 | Configuração inicial MkDocs | Daniel Ferreira Nunes | Eduardo Ferreira |
-| 1.1 | 28/09/25 | Estrutura de documentação | Equipe Roberta Williams | Julia Takaki |
 
 ---
 
