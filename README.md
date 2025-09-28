@@ -24,16 +24,24 @@
             </a>
         </td><td align="center">
             <a href="link do github">
-                <img style="border-radius: 50%;  width: 80px;heigth: 100px" src="https://github.com/Edumorais08.png" />
+                <img style="border-radius: 50%;  width: 100px;heigth: 100px" src="https://github.com/Edumorais08.png" />
                 <h5 class="text-center">Eduardo de Almeida Morais</h5>
                 <h5 class="text-center">231011275</h5>
             </a>
         </td><td align="center">
             <a href="link do github">
-                <img style="border-radius: 50%;  width: 150px;heigth: 100px"/>
-                <h5 class="text-center">Nome do integrante</h5>
-                <h5 class="text-center">Matrícula</h5>
+                <img style="border-radius: 50%;  width: 100px;heigth: 100px" src="https://github.com/juliatakaki.png" />
+                <h5 class="text-center">Julia Takaki Neves</h5>
+                <h5 class="text-center">221029249</h5>
             </a>
+        </td>
+        </td><td align="center">
+            <a href="link do github">
+                <img style="border-radius: 50%;  width: 100px;heigth: 100px" src="https://github.com/MatheussBrant.png" />
+                <h5 class="text-center">Matheus de Siqueira Brant</h5>
+                <h5 class="text-center">222037737</h5>
+            </a>
+        </td>
  
 </table>
  <! -- ## :email: Site -->
