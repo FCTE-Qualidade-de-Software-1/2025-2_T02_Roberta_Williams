@@ -105,11 +105,10 @@ As principais partes interessadas abrangem os usuários finais que utilizam o Fi
 
 | 🎓 Matrícula | 🙋 Nome completo | 📊 Contribuição (%) |
 |-------------|------------------|---------------------|
-| 211030765 | [Daniel Ferreira Nunes ](https://github.com/Mach1r0) | 16.66 |
-| 222037610 | [Eduardo Ferreira](https://github.com/eduardoferre) | 16.66 |
-| 222022000 | [Eduardo Morais](https://github.com/Edumorais08) | 16.66 |
-| 222025324 | [Julia Takaki](https://github.com/juliatakaki) | 16.66 |
-| 222015248 | [Rafael Gomes Pereira](https://github.com/MatheussBrant) | 16.66 |
-| 222015112 | [Matheus Brant](https://github.com/MatheussBrant) | 16.66 |
+| 211061565 | [Daniel Ferreira Nunes ](https://github.com/Mach1r0) | 16.66 |
+| 221008632 | [Eduardo Ferreira](https://github.com/eduardoferre) | 16.66 |
+| 231011275 | [Eduardo Morais](https://github.com/Edumorais08) | 16.66 |
+| 221029249 | [Julia Takaki](https://github.com/juliatakaki) | 16.66 |
+| 222037737 | [Matheus Brant](https://github.com/MatheussBrant) | 16.66 |
 
 
