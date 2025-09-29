@@ -9,16 +9,13 @@
 
 ## 📋 Descrição
 
-O **Projeto Roberta Williams** é um sistema desenvolvido pela equipe homônima para a disciplina de **Qualidade de Software**. O projeto tem como objetivo aplicar as melhores práticas de engenharia de software, incluindo metodologias ágeis, documentação completa, testes automatizados e integração contínua.
+Este projeto foi desenvolvido no âmbito da disciplina Qualidade de Software 1, ofertada no segundo semestre letivo de 2025. A equipe responsável, denominada **Roberta Williams** — em referência à criadora do primeiro jogo de aventura gráfica — tem como objetivo central realizar uma avaliação do software com foco nas características de funcionalidade e confiabilidade, conforme o modelo de qualidade definido pela norma ISO/IEC 25010.
 
-## 📎 Funcionalidades
+Dessa forma, a análise será direcionada a verificar se o software atende adequadamente aos requisitos funcionais esperados e se apresenta comportamento consistente e confiável em diferentes cenários de uso.
 
-• **Documentação Interativa**: Documentação completa utilizando MkDocs com tema Material Design
-• **Controle de Versão**: Gestão completa do código com Git e GitHub
-• **Deploy Automatizado**: Integração contínua com GitHub Actions
-• **Metodologia Ágil**: Desenvolvimento seguindo práticas ágeis com sprints e retrospectivas
-• **Testes Automatizados**: Cobertura de testes para garantir qualidade do código
-• **Arquitetura Moderna**: Estrutura escalável e bem documentada
+O processo de avaliação é estruturado em quatro fases principais: estabelecimento dos requisitos de avaliação, especificação da avaliação, projeto da avaliação e execução da avaliação.
+
+
 
 ## 📋 Pré-requisitos
 
