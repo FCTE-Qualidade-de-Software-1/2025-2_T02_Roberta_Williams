@@ -95,11 +95,11 @@ mkdocs serve --dev-addr=127.0.0.1:8001
 
 | Foto | Nome | Matrícula | GitHub |
 |------|------|-----------|--------|
-| ![Daniel](https://github.com/Mach1r0.png){: style="border-radius: 50%; width: 80px; height: 80px;"} | **Daniel Ferreira Nunes** | 211061565 | [@Mach1r0](https://github.com/Mach1r0) |
-| ![Eduardo Ferreira](https://github.com/eduardoferre.png){: style="border-radius: 50%; width: 80px; height: 80px;"} | **Eduardo de Almeida Ferreira** | 221008632 | [@eduardoferre](https://github.com/eduardoferre) |
-| ![Eduardo Morais](https://github.com/Edumorais08.png){: style="border-radius: 50%; width: 80px; height: 80px;"} | **Eduardo de Almeida Morais** | 231011275 | [@Edumorais08](https://github.com/Edumorais08) |
-| ![Julia](https://github.com/juliatakaki.png){: style="border-radius: 50%; width: 80px; height: 80px;"} | **Julia Takaki Neves** | 221029249 | [@juliatakaki](https://github.com/juliatakaki) |
-| ![Matheus](https://github.com/MatheussBrant.png){: style="border-radius: 50%; width: 80px; height: 80px;"} | **Matheus de Siqueira Brant** | 222037737 | [@MatheussBrant](https://github.com/MatheussBrant) |
+| ![Daniel](https://github.com/Mach1r0.png) | **Daniel Ferreira Nunes** | 211061565 | [@Mach1r0](https://github.com/Mach1r0) |
+| ![Eduardo Ferreira](https://github.com/eduardoferre.png) | **Eduardo de Almeida Ferreira** | 221008632 | [@eduardoferre](https://github.com/eduardoferre) |
+| ![Eduardo Morais](https://github.com/Edumorais08.png) | **Eduardo de Almeida Morais** | 231011275 | [@Edumorais08](https://github.com/Edumorais08) |
+| ![Julia](https://github.com/juliatakaki.png) | **Julia Takaki Neves** | 221029249 | [@juliatakaki](https://github.com/juliatakaki) |
+| ![Matheus](https://github.com/MatheussBrant.png) | **Matheus de Siqueira Brant** | 222037737 | [@MatheussBrant](https://github.com/MatheussBrant) |
 
 
 ## 📅 Histórico de Versões
