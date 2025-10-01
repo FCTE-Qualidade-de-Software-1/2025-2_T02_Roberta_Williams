@@ -87,7 +87,7 @@ A documentação completa do projeto inclui:
 
 | <a href="https://github.com/Mach1r0"><img src="https://github.com/Mach1r0.png" width="150"></a> | <a href="https://github.com/eduardoferre"><img src="https://github.com/eduardoferre.png" width="150"></a> | <a href="https://github.com/Edumorais08"><img src="https://github.com/Edumorais08.png" width="150"></a> | <a href="https://github.com/juliatakaki"><img src="https://github.com/juliatakaki.png" width="150"></a> | <a href="https://github.com/MatheussBrant"><img src="https://github.com/MatheussBrant.png" width="150"></a> |
 | :----------: | :----------: | :----------: | :----------: | :----------: |
-| [Daniel Ferreira Nunes](https://github.com/Mach1r0)<br>**211061565** | [Eduardo de Almeida Ferreira](https://github.com/eduardoferre)<br>**221008632** | [Eduardo de Almeida Morais](https://github.com/Edumorais08)<br>**231011275** | [Julia Takaki Neves](https://github.com/juliatakaki)<br>**221029249** | [Matheus de Siqueira Brant](https://github.com/MatheussBrant)<br>**222037737** |
+| [Daniel Ferreira Nunes](https://github.com/Mach1r0)<br>**211061565** | [Eduardo de Almeida Ferreira](https://github.com/eduardoferre)<br>**221008632** | [Eduardo de Almeida Morais](https://github.com/Edumorais08)<br>**231011275** | [Júlia Takaki Neves](https://github.com/juliatakaki)<br>**221029249** | [Matheus de Siqueira Brant](https://github.com/MatheussBrant)<br>**222037737** |
 
 > **💡 Contato**  
 > Estamos sempre abertos para feedback, sugestões e colaborações!  
