@@ -9,11 +9,11 @@
 
 ## 📋 Descrição
 
-Repositorio para a disciplina de Qualidade de software sobre o software firefox
+Repositório para a disciplina de Qualidade de Software sobre o Mozilla Firefox.
 
 ## 📋 Pré-requisitos
 
-Para contribuir com o projeto, você precisa ter instalado:
+Para contribuir com o projeto, é preciso ter instalado:
 
 • **Python 3.8+**  
 • **Git**  
