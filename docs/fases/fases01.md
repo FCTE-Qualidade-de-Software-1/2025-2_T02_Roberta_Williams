@@ -1,4 +1,4 @@
-# 📋 **Fase 1: Estabelecer os Requisitos da Avaliação**
+# **Fase 1: Estabelecer os Requisitos da Avaliação**
 
 ## **Contexto do Projeto**
 
@@ -23,8 +23,11 @@ O objetivo de negócio principal do projeto Firefox, alinhado com a missão mais
 
 ### **Propósito da Avaliação e Melhoria de Qualidade: Funcionalidade e Confiabilidade**
 
-O propósito desta avaliação de qualidade é analisar e propor melhorias para o projeto Firefox, com foco específico em **Funcionalidade** e **Confiabilidade**. Estes dois atributos são cruciais para a experiência do usuário e para o cumprimento dos objetivos de negócio do projeto.
+O propósito desta avaliação de qualidade é analisar e propor melhorias para o projeto Firefox, com foco específico em **Funcionalidade** e **Confiabilidade**.  
+Estes dois atributos são cruciais para a experiência do usuário e para o cumprimento dos objetivos de negócio do projeto.
 
+A escolha do Firefox como objeto de avaliação se justifica por ser um dos navegadores mais relevantes e utilizados globalmente, além de sua natureza open source, que favorece a análise em ambientes acadêmicos.  
+A transparência do projeto e sua forte conexão com valores sociais – como defesa da privacidade, inclusão digital e acesso democrático à informação – reforçam seu alinhamento aos **ODS da ONU** e ampliam a relevância de estudá-lo sob a ótica da qualidade de software.
 
 ## **Conexão com os ODS da ONU**
 
@@ -45,7 +48,6 @@ O propósito desta avaliação de qualidade é analisar e propor melhorias para 
 - O Firefox protege a privacidade dos usuários, garantindo liberdade digital e maior segurança no uso da internet
 - Promove o acesso aberto à informação ao combater práticas abusivas de rastreamento e monopólio de dados
 - Fortalece os direitos digitais e liberdades fundamentais, alinhando-se à meta 16.10 da ONU (assegurar acesso público à informação e proteger direitos básicos)
-
 
 ## **Modelo de Qualidade Utilizado**
 
@@ -83,32 +85,39 @@ Esta característica está conectada ao propósito do Firefox de oferecer uma na
 | Segurança                | 1 | 
 | Usabilidade              | 0 |
 
-
 ### **Classificação do Tipo de Produto**
-
 
 O Mozilla Firefox pode ser classificado, segundo as categorias apresentadas por Pressman, como um software de computador pessoal, pois é utilizado diretamente pelo usuário final para navegação na web, acesso a informações, execução de aplicações online e interação com diferentes serviços digitais.
 
 De acordo com a classificação da IEEE 1062, o Firefox enquadra-se como um COTS (Commercial Off-The-Shelf Software), uma vez que é um produto pronto, desenvolvido pelo fabricante e disponibilizado a um público amplo, sem customizações específicas para clientes individuais. Embora seja gratuito e de código aberto, mantém as características de um produto de prateleira, projetado para atender de forma generalista às necessidades da maioria dos usuários.
 
+## **Escopo, Profundidade e Objetos de Avaliação**
 
+O escopo desta avaliação contempla a **versão estável atual do navegador Mozilla Firefox para desktop (143.0.3)**, considerando seu uso por usuários finais em diferentes contextos de navegação na web.  
+As atividades de uso foram especificadas em **cenários práticos** que refletem situações reais:
 
-### **Escopo, profundidade e objetos de avaliação**
+- **Consumo de informação**: acesso a páginas informativas, leitura de notícias, consulta a enciclopédias online (ex.: Wikipédia).  
+- **Interação social e comunicação**: participação em redes sociais (ex.: Twitter, Facebook), fóruns de discussão e serviços de mensagens web.  
+- **Serviços digitais**: uso de plataformas de e-commerce, operações em bancos digitais e acesso a serviços governamentais online.  
+- **Multimídia**: reprodução de vídeos (ex.: YouTube), músicas e podcasts em plataformas de streaming.  
+- **Produtividade e estudo**: utilização de ferramentas online como editores de texto, planilhas, ambientes virtuais de aprendizagem (ex.: Google Docs, Moodle).  
+- **Privacidade e segurança**: navegação em modo privado, bloqueio de rastreadores, gerenciamento de senhas e uso de extensões de segurança.  
 
-O escopo desta avaliação contempla a versão estável atual do navegador Mozilla Firefox para desktop, considerando seu uso por usuários finais em atividades cotidianas de navegação na web. A profundidade da análise será limitada às características de qualidade Funcionalidade e Confiabilidade. Os objetos de avaliação correspondem às funções principais do navegador e à sua capacidade de manter operação estável e segura frente a falhas.
+A **profundidade da análise** será limitada às características de qualidade **Funcionalidade** e **Confiabilidade**, com foco em verificar:  
+- Se as funções essenciais do navegador atendem de forma adequada às necessidades dos usuários em cada cenário descrito.  
+- Se o navegador mantém **estabilidade e consistência** quando submetido a condições variadas de uso, como múltiplas abas abertas, carregamento de conteúdo multimídia pesado ou falhas ocasionais de rede.  
+
+Os **objetos de avaliação** correspondem às funções principais do Firefox e sua capacidade de manter operação estável, segura e alinhada aos princípios do projeto.
 
 ### **Requisitantes e Partes Interessadas**
 
 Embora este trabalho acadêmico não tenha um requisitante direto, no contexto real do desenvolvimento do Mozilla Firefox os principais requisitantes são a própria Mozilla Foundation/Mozilla Corporation, a comunidade de desenvolvedores voluntários, usuários avançados que sugerem melhorias e empresas/parceiros de tecnologia que integram seus serviços ao navegador.
 As principais partes interessadas abrangem os usuários finais que utilizam o Firefox diariamente, os desenvolvedores web que dependem de compatibilidade com padrões abertos, a comunidade open source que participa de sua evolução, além da sociedade civil e organizações de defesa digital, que se beneficiam da proteção de privacidade e do acesso aberto à informação promovidos pelo navegador.
 
-
-| 🎓 Matrícula | 🙋 Nome completo | 📊 Contribuição (%) |
-|-------------|------------------|---------------------|
+| Matrícula | Nome completo | Contribuição (%) |
+|-----------|----------------|-------------------|
 | 211061565 | [Daniel Ferreira Nunes ](https://github.com/Mach1r0) | 20 |
 | 221008632 | [Eduardo Ferreira](https://github.com/eduardoferre) | 20 |
 | 231011275 | [Eduardo Morais](https://github.com/Edumorais08) | 20 |
-| 221029249 | [Julia Takaki](https://github.com/juliatakaki) | 20 |
+| 221029249 | [Júlia Takaki](https://github.com/juliatakaki) | 20 |
 | 222037737 | [Matheus Brant](https://github.com/MatheussBrant) | 20 |
-
-
