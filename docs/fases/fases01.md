@@ -23,11 +23,14 @@ O objetivo de negócio principal do projeto Firefox, alinhado com a missão mais
 
 ### **Propósito da Avaliação e Melhoria de Qualidade: Funcionalidade e Confiabilidade**
 
-O propósito desta avaliação de qualidade é analisar e propor melhorias para o projeto Firefox, com foco específico em **Funcionalidade** e **Confiabilidade**.  
-Estes dois atributos são cruciais para a experiência do usuário e para o cumprimento dos objetivos de negócio do projeto.
+O propósito central desta avaliação é analisar e propor melhorias para o Mozilla Firefox, com foco específico nas características de **Funcionalidade** e **Confiabilidade**. A escolha do Firefox justifica-se por três motivos principais:
 
-A escolha do Firefox como objeto de avaliação se justifica por ser um dos navegadores mais relevantes e utilizados globalmente, além de sua natureza open source, que favorece a análise em ambientes acadêmicos.  
-A transparência do projeto e sua forte conexão com valores sociais – como defesa da privacidade, inclusão digital e acesso democrático à informação – reforçam seu alinhamento aos **ODS da ONU** e ampliam a relevância de estudá-lo sob a ótica da qualidade de software.
+*   **Relevância Global e Impacto Social:** Como um dos navegadores mais utilizados no mundo, melhorias em sua qualidade impactam diretamente milhões de usuários. Sua natureza *open source* e seu compromisso com a privacidade e a inclusão digital o alinham a importantes Objetivos de Desenvolvimento Sustentável (ODS) da ONU.
+
+*   **Transparência e Viabilidade Acadêmica:** Sendo um projeto de código aberto, o Firefox oferece acesso público ao seu código-fonte e processos de desenvolvimento, o que é fundamental para uma análise aprofundada e viável.
+
+*   **Alinhamento com os Objetivos de Negócio:** A **Funcionalidade** e a **Confiabilidade** são pilares para que o Firefox cumpra sua missão. Um navegador que não funciona corretamente ou que é instável falha em ser uma alternativa viável e perde a confiança do usuário, minando seu objetivo de proteger a web aberta.
+
 
 ## **Conexão com os ODS da ONU**
 
@@ -55,19 +58,29 @@ A avaliação do navegador Mozilla Firefox será realizada com base no modelo da
 
 ### **Características Priorizadas**
 
-#### **Adequação Funcional**
+#### **Funcionalidade (Adequação Funcional)**
 Analisa a capacidade do navegador em oferecer funções que atendam de forma completa, correta e adequada às necessidades dos usuários, incluindo:
-- Compatibilidade com padrões web
-- Suporte a extensões
-- Segurança de navegação
-- Recursos de personalização
+- Compatibilidade com padrões web  
+- Suporte a extensões  
+- Segurança de navegação  
+- Recursos de personalização  
 
-Esta característica relaciona-se diretamente ao propósito do Firefox de proporcionar uma navegação plena e alinhada a padrões abertos da web.
+Essa característica foi priorizada porque está diretamente relacionada ao propósito do Firefox de garantir uma navegação plena e aderente a padrões abertos, fator essencial para sua missão de manter a internet livre e acessível.  
+
+A escolha se justifica porque a funcionalidade é a base da proposta de valor do Firefox. Para ser uma porta de entrada para a web, ele precisa:
+- Renderizar páginas corretamente (adequação funcional)  
+- Ser compatível com padrões web (correção funcional)  
+- Oferecer recursos que permitam ao usuário navegar de forma eficiente e segura (completude funcional)  
+
+Assim, a priorização desta característica está ligada à missão do Firefox de assegurar uma internet acessível, aberta e sem barreiras.
 
 #### **Confiabilidade**
-Considera a robustez do navegador frente a falhas, sua capacidade de manter desempenho estável sob condições variadas de uso (como múltiplas abas abertas) e a recuperação diante de erros. 
+Considera a robustez do navegador frente a falhas, sua capacidade de manter desempenho estável sob condições variadas de uso (como múltiplas abas abertas) e a recuperação diante de erros. Garante consistência e continuidade na experiência do usuário.  
 
-Esta característica está conectada ao propósito do Firefox de oferecer uma navegação segura e estável, transmitindo confiança ao usuário.
+Essa característica foi escolhida por estar alinhada à necessidade de transmitir confiança e estabilidade, elementos cruciais para a adoção de um navegador em larga escala e para que o Firefox cumpra sua missão de oferecer uma alternativa segura frente a concorrentes proprietários.  
+
+A justificativa está no fato de que um navegador é uma ferramenta de uso contínuo e intensivo. Falhas, travamentos ou lentidão comprometem a confiança do usuário e podem levá-lo a buscar alternativas. Portanto, a confiabilidade é essencial para que o Firefox seja visto como uma opção estável e segura, capaz de lidar com cenários cotidianos (múltiplas abas, aplicações web complexas), reforçando sua posição como um produto de alta qualidade.  
+
 
 
 ![alt text](image.png)
@@ -108,6 +121,21 @@ A **profundidade da análise** será limitada às características de qualidade 
 - Se o navegador mantém **estabilidade e consistência** quando submetido a condições variadas de uso, como múltiplas abas abertas, carregamento de conteúdo multimídia pesado ou falhas ocasionais de rede.  
 
 Os **objetos de avaliação** correspondem às funções principais do Firefox e sua capacidade de manter operação estável, segura e alinhada aos princípios do projeto.
+
+---
+
+### **Fluxo de Navegação Cotidiana a ser Analisado**
+
+Para garantir que a avaliação seja representativa do uso real, será analisado o seguinte fluxo de navegação:
+
+1. **Início da Sessão e Pesquisa**: Abrir o navegador e realizar uma pesquisa sobre um tema de interesse.  
+2. **Consumo de Conteúdo Misto**: Navegar entre diferentes abas, incluindo um portal de notícias, uma plataforma de vídeo e uma rede social.  
+3. **Interação com Ferramentas de Produtividade**: Acessar e utilizar uma ferramenta online, como um editor de documentos em nuvem ou um serviço de e-mail.  
+4. **Uso de Recursos de Privacidade**: Ativar o modo de navegação privativa e verificar as proteções contra rastreamento em um site de e-commerce.  
+
+#### **Justificativa da Escolha do Fluxo**
+Este fluxo foi escolhido por simular um cenário de uso realista e multifacetado, que testa simultaneamente a **Funcionalidade** (renderização de diferentes tipos de mídia, compatibilidade com aplicações web) e a **Confiabilidade** (gerenciamento de múltiplas abas, estabilidade durante a reprodução de vídeo). Ele permite observar como o navegador se comporta sob uma carga de trabalho típica, fornecendo dados valiosos sobre sua robustez e adequação funcional no dia a dia.
+
 
 ### **Requisitantes e Partes Interessadas**
 
