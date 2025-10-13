@@ -20,7 +20,7 @@ Analisar a robustez e estabilidade do Mozilla Firefox, bem como sua capacidade d
 - **Q2.2:** Qual a frequência de falhas, travamentos ou lentidão durante o uso contínuo e intensivo do navegador?
 - **Q2.3:** O navegador se recupera adequadamente de erros e falhas, minimizando a perda de dados ou interrupção da experiência do usuário?
 - **Q2.4:** A reprodução de vídeos e áudios em plataformas de streaming ocorre sem interrupções ou problemas de sincronização?
-
+- 
 
 ## Metric (Métricas)
 
@@ -30,7 +30,6 @@ Analisar a robustez e estabilidade do Mozilla Firefox, bem como sua capacidade d
 | **M2.1.2** | Tempo Médio Entre Falhas (MTBF)                 | Tempo médio de operação contínua do navegador antes da ocorrência de uma falha.                                   | > 24 horas                |
 | **M2.1.3** | Tempo de Resposta da Interface                  | Tempo médio para a interface responder a interações (ex: clique em links, abertura de abas) sob diferentes cargas.| < 500 ms (interações básicas) |
 | **M2.1.4** | Taxa de Sucesso na Reprodução Multimídia        | Percentual de vídeos e áudios reproduzidos sem interrupções ou problemas de sincronização em plataformas de streaming.| > 98%                     |
-| **M2.1.5** | Taxa de Recuperação de Sessão                   | Percentual de vezes que o navegador restaura a sessão anterior após um travamento inesperado.                     | > 95%                     |
 
 # **Medição 2 – Adequação Funcional**
 
