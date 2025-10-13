@@ -56,7 +56,7 @@ Avaliar se o Mozilla Firefox oferece funções completas, corretas e apropriadas
 | **Código** | **Métrica** | **Descrição** | **Meta** |
 |-------------|-------------|----------------|-----------|
 | **M2.2.1** | Taxa de Sucesso das Funções Principais | Percentual de funções testadas que executam corretamente sem erros (abrir abas, histórico, downloads, favoritos). | ≥ 95% |
-| **M2.2.2** | Conformidade com Padrões Web | Pontuação em testes de suporte a padrões abertos (HTML5Test, ACID3, etc.). | ≥ 90% |
+| **M2.2.2** | Conformidade com Padrões Web | Pontuação em testes de suporte a padrões abertos ( ACID3, etc.). | ≥ 90% |
 | **M2.2.3** | Taxa de Compatibilidade de Extensões | Percentual de extensões testadas que funcionam sem falhas (ex: tradutor, bloqueador de anúncios, leitor de PDF). | ≥ 90% |
 | **M2.2.4** | Taxa de Personalização Aplicada com Sucesso | Percentual de alterações de tema, idioma ou layout aplicadas corretamente. | ≥ 95% |
 | **M2.2.5** | Taxa de Sucesso de Sincronização de Dados | Percentual de sincronizações bem-sucedidas entre dispositivos (favoritos, histórico, senhas). | ≥ 95% |
