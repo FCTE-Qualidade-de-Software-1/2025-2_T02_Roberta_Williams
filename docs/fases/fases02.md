@@ -20,7 +20,7 @@ Analisar a robustez e estabilidade do Mozilla Firefox, bem como sua capacidade d
 - **Q2.2:** Qual a frequência de falhas, travamentos ou lentidão durante o uso contínuo e intensivo do navegador?
 - **Q2.3:** O navegador se recupera adequadamente de erros e falhas, minimizando a perda de dados ou interrupção da experiência do usuário?
 - **Q2.4:** A reprodução de vídeos e áudios em plataformas de streaming ocorre sem interrupções ou problemas de sincronização?
-- **Q2.5:** O navegador restaura a sessão anterior após um travamento inesperado?
+- **Q2.5:** O navegador restaura a sessão anterior após um travamento inesperado? 
 
 ## Metric (Métricas)
 
