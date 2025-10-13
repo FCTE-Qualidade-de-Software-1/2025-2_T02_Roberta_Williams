@@ -1,5 +1,4 @@
 # Roberta Williams: A Pioneira dos Jogos de Aventura Gráfica
-
 ![alt text](image.png)
 
 

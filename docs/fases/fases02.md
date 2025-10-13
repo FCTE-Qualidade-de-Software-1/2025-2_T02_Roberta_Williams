@@ -6,7 +6,7 @@ Nesta segunda fase do projeto será utilizado o modelo GQM (Goal Question Metric
 2. **Question (Pergunta)**: Formula perguntas que ajudam a entender se as metas estão sendo alcançadas. Essas perguntas devem ser claras e focadas nos aspectos críticos do projeto.
 3. **Metric (Métrica)**: Identifica as métricas que serão usadas para responder
 
-# Medição 1 - Confiabilidade
+# **Medição 1 - Confiabilidade**
 
 ## Goal (Meta)
 
@@ -22,7 +22,7 @@ Analisar a robustez e estabilidade do Mozilla Firefox, bem como sua capacidade d
 - **Q2.4:** A reprodução de vídeos e áudios em plataformas de streaming ocorre sem interrupções ou problemas de sincronização?
 
 
-### Métricas
+## Metric (Métricas)
 
 | Código    | Métrica                                         | Descrição                                                                                                         | Meta                      |
 |-----------|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------------|
