@@ -7,7 +7,7 @@
 ![Python version](https://img.shields.io/badge/python-3.8%2B-blue)
 ![MkDocs](https://img.shields.io/badge/docs-mkdocs%20material-blue)
 
-## 📋 Descrição
+## Descrição
 
 Este projeto foi desenvolvido no âmbito da disciplina Qualidade de Software 1, ofertada no segundo semestre letivo de 2025. A equipe responsável, denominada **Roberta Williams** — em referência à criadora do primeiro jogo de aventura gráfica — tem como objetivo central realizar uma avaliação do software com foco nas características de funcionalidade e confiabilidade, conforme o modelo de qualidade definido pela norma ISO/IEC 25010.
 
@@ -17,7 +17,7 @@ O processo de avaliação é estruturado em quatro fases principais: estabelecim
 
 
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 Para contribuir com o projeto, você precisa ter instalado:
 
@@ -25,7 +25,7 @@ Para contribuir com o projeto, você precisa ter instalado:
 • **Git**
 • **MkDocs e MkDocs Material**
 
-## 💻 Ambiente
+## Ambiente
 
 Para configurar o ambiente de desenvolvimento, siga os passos:
 
@@ -46,7 +46,7 @@ source mkdocs-env/bin/activate
 mkdocs-env\Scripts\activate
 ```
 
-## 📁 Dependências do projeto
+## Dependências do projeto
 
 Para instalar as dependências do projeto:
 
@@ -58,7 +58,7 @@ pip install mkdocs mkdocs-material
 pip install mkdocs-minify-plugin
 ```
 
-## 💾 Execução
+## Execução
 
 Para executar a documentação localmente:
 
@@ -73,21 +73,21 @@ mkdocs serve
 mkdocs serve --dev-addr=127.0.0.1:8001
 ```
 
-## 🌐 Acesso aos serviços
+## Acesso aos serviços
 
 | Serviço | URL |
 |---------|-----|
 | Documentação Local | http://127.0.0.1:8000 |
 | Repositório | https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T02_Roberta_Williams |
 
-## 📚 Documentação
+## Documentação
 
-- **[📋 Fase 01](fases/fases01.md)** 
-- **[📋 Fase 02](fases/fases02.md)**  
-- **[📋 Fase 03](fases/fases03.md)**  
-- **[📋 Fase 04](fases/fases04.md)** 
+- **[ Fase 01](fases/fases01.md)** 
+- **[ Fase 02](fases/fases02.md)**  
+- **[ Fase 03](fases/fases03.md)**  
+- **[ Fase 04](fases/fases04.md)** 
 
-## 👥 Equipe
+## Equipe
 
 
 | Foto | Nome | Matrícula | GitHub |
@@ -99,9 +99,9 @@ mkdocs serve --dev-addr=127.0.0.1:8001
 | ![Matheus](https://github.com/MatheussBrant.png) | **Matheus de Siqueira Brant** | 222037737 | [@MatheussBrant](https://github.com/MatheussBrant) |
 
 
-## 📅 Histórico de Versões
+## Histórico de Versões
 
-| 📌 Versão | 📆 Data | ✍️ Descrição | 👤 Autor | 🔍 Revisor |
+| Versão | Data | Descrição | Autor | Revisor |
 |:--------:|:-------|:-------------|:--------|:-----------:|
 |`1.0`|29/09/25|Criação da página inicial|[Daniel Ferreira Nunes](https://github.com/Mach1r0)|[Eduardo Ferreira](https://github.com/) |
 

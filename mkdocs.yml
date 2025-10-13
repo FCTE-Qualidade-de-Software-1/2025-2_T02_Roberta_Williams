@@ -116,15 +116,15 @@ markdown_extensions:
 
 # Navigation
 nav:
-  - 🏠 Home: index.md
-  - 📚 Fases:
-    - 📊 Fase 01: fases/fases01.md
-    - 📊 Fase 02: fases/fases02.md
-    - 📊 Fase 03: fases/fases03.md
-    - 📊 Fase 04: fases/fases04.md
-  - 📋 Planejamento: planejamento.md
-  - 📄 Gestão do projeto: gestao.md
-  - 📄 Roberta Williams: apresentacao.md  
+  - Home: index.md
+  - Fases:
+    - Fase 01: fases/fases01.md
+    - Fase 02: fases/fases02.md
+    - Fase 03: fases/fases03.md
+    - Fase 04: fases/fases04.md
+  - Planejamento: planejamento.md
+  - Gestão do projeto: gestao.md
+  - Roberta Williams: apresentacao.md  
 
 # Extra
 extra:
