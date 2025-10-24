@@ -118,7 +118,7 @@ A justificativa está no fato de que um navegador é uma ferramenta de uso cont�
 
 
 
-![alt text](image.png)
+![alt text](/2025-2_T02_Roberta_Williams/docs/assets/image.png)
 
 ### **Matriz de Priorização**
 
@@ -172,7 +172,7 @@ De acordo com a classificação da IEEE 1062, o Firefox enquadra-se como um COTS
 
 **Diagrama de contexto:**
 
-![alt text](diagramaUI.png)
+![alt text](/2025-2_T02_Roberta_Williams/docs/assets/diagramaUI.png)
 
 **Implicações na avaliação:**
 
