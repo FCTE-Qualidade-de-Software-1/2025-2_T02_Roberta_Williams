@@ -397,6 +397,18 @@ Foram utilizadas **ferramentas de IA generativas** para **apoiar pesquisas**, **
 
 ---
 
+## **Equipe e Contribuições**
+
+| Matrícula | Nome completo                                        | Contribuição (%) |
+| --------- | ---------------------------------------------------- | ---------------- |
+| 211061565 | [Daniel Ferreira Nunes ](https://github.com/Mach1r0) | 20               |
+| 221008632 | [Eduardo Ferreira](https://github.com/eduardoferre)  | 20               |
+| 231011275 | [Eduardo Morais](https://github.com/Edumorais08)     | 20               |
+| 221029249 | [Júlia Takaki](https://github.com/juliatakaki)       | 20               |
+| 222037737 | [Matheus Brant](https://github.com/MatheussBrant)    | 20               |
+
+
+
 ##  Histórico de Versão
 
 | **Versão** | **Data** | **Descrição** | **Autor** | **Revisor** |
@@ -404,4 +416,5 @@ Foram utilizadas **ferramentas de IA generativas** para **apoiar pesquisas**, **
 | `1.0` | 12/10/2025 | Criação inicial do documento | [Daniel Ferreira](https://github.com/Mach1r0) | [Eduardo Ferreira](https://github.com/eduardoferre) |
 | `1.1` | 13/10/2025 | Adição das métricas da Adequação Funcional | [Eduardo Morais](https://github.com/Edumorais08) | [Daniel Ferreira](https://github.com/Mach1r0) |
 | `1.2` | 21/10/2025 | Adição de Perguntas, Métricas, Justificativas e Hipóteses para Funcionalidade e Confiabilidade | [Daniel Ferreira](https://github.com/Mach1r0) | [Eduardo Ferreira](https://github.com/eduardoferre) |
-| `1.3` | 24/10/2025 | Modificação das Perguntas, Métricas e Adição de diagrama e tabelas| [Matheus Brant](https://github.com/MatheussBrant) | 
+| `1.3` | 24/10/2025 | Modificação das Perguntas, Métricas e Adição de diagrama e tabelas| [Matheus Brant](https://github.com/MatheussBrant) | [Eduardo Morais](https://github.com/Edumorais08) |
+| `1.4` | 24/10/2025 | Adicionando tabela de contribuição | [Daniel Ferreira](https://github.com/Mach1r0) | [Matheus Brant](https://github.com/MatheussBrant) |
