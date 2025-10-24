@@ -190,7 +190,7 @@ A avaliação da **Funcionalidade** do Mozilla Firefox se concentrará em verifi
 
 ## Árvore GQM
 
-![alt text](/2025-2_T02_Roberta_Williams/docs/assets/imagemFase2.png)
+![alt text](../assets/imagemFase2.png)
 
 ---
 
