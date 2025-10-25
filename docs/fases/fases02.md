@@ -225,7 +225,6 @@ M2.4 TSOF privativa (%): ______
 Observações (eventos, prints, links): ____________________________________________
 ```
 
-> **Dica:** Se preferir, faça um **Google Form** com esses campos e o próprio Forms cria a planilha automaticamente.
 
 **Execução (seguir o Fluxo da Fase 1):**
 
@@ -281,7 +280,7 @@ Observações (eventos, prints, links): ________________________________________
 
 ---
 
-## **Justificativa das Métricas (C4/C12)**
+## **Justificativa das Métricas**
 
 * **[GQM](#gqm):** modelo para garantir que **cada métrica** responda a **uma pergunta** que, por sua vez, comprova **um objetivo**.
 * **[ISO/IEC 25010](#isoiec-25010) — Confiabilidade & Adequação Funcional:** atributos centrais de qualidade que sustentam estabilidade, correção e completude.
