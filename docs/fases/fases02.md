@@ -291,7 +291,7 @@ Observações (eventos, prints, links): ________________________________________
 
 ---
 
-## **Glossário (para leitores não técnicos)**
+## **Glossário**
 
 ### GQM
 
