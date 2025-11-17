@@ -3,10 +3,10 @@
 ## 1. Objetivo deste Plano
 
 
-O objetivo deste documento é "produzir o plano de avaliação"[cite: 41, 276]. Ele serve como a ponte entre a **Fase 02** (onde *especificamos* as métricas) e a **Fase 04** (onde *executamos* a coleta)[cite: 18].
+O objetivo deste documento é "produzir o plano de avaliação". Ele serve como a ponte entre a **Fase 02** (onde *especificamos* as métricas) e a **Fase 04** (onde *executamos* a coleta)
 
 
-Este plano detalha o **método de avaliação**, os **recursos necessários** e o **cronograma de ações** [cite: 279, 280], com instruções claras para que um avaliador possa executar a avaliação de forma completa e reprodutível[cite: 281].
+Este plano detalha o **método de avaliação**, os **recursos necessários** e o **cronograma de ações**, com instruções claras para que um avaliador possa executar a avaliação de forma completa e reprodutível.
 
 * **Produto Alvo:** Mozilla Firefox (desktop) Versão 143.0.3.
 * **Persona Alvo:** "Estudante/Profissional multitarefa conectada".
@@ -14,7 +14,7 @@ Este plano detalha o **método de avaliação**, os **recursos necessários** e 
 ## 2. Recursos Necessários
 
 
-Conforme especificado pelo processo de avaliação[cite: 279], os seguintes recursos são necessários:
+Conforme especificado pelo processo de avaliação, os seguintes recursos são necessários:
 
 ### Recursos de Hardware
 * **Dispositivo:** Notebook ou desktop (Ex: Intel i5 ou equivalente, 8GB de RAM).
@@ -40,7 +40,7 @@ Conforme especificado pelo processo de avaliação[cite: 279], os seguintes recu
 ## 3. Método de Avaliação e Coleta de Dados
 
 
-Este é o **método de avaliação** [cite: 279] que detalha o fluxo de testes e as instruções exatas para a coleta de dados de cada métrica definida na Fase 02.
+Este é o **método de avaliação** que detalha o fluxo de testes e as instruções exatas para a coleta de dados de cada métrica definida na Fase 02.
 
 ### 3.1. Preparação da Sessão de Teste (Setup)
 
@@ -131,15 +131,15 @@ O avaliador deve seguir o "Fluxo de Navegação Cotidiana" e coletar os dados da
 ## 4. Cronograma das Ações
 
 
-O cronograma a seguir detalha a execução das Fases 03 e 04[cite: 280]:
+O cronograma a seguir detalha a execução das Fases 03 e 04:
 
 | Data (Exemplo) | Fase | Atividade | Responsáveis | Entregável |
 | :--- | :--- | :--- | :--- | :--- |
-| 16/11/25 | Fase 03 | Finalização e revisão deste Plano de Avaliação. | Equipe | `fases03.md` (Este documento) |
-| 17/11/25 | Fase 04 | Execução da Sessão de Teste 01 (Coleta M1.1-M2.4) | Membro 1 | Ficha de Registro (Linha 1), Vídeo 1 |
-| 18/11/25 | Fase 04 | Execução da Sessão de Teste 02 (Coleta M1.1-M2.4) | Membro 2 | Ficha de Registro (Linha 2), Vídeo 2 |
-| 19/11/25 | Fase 04 | Execução da Sessão de Teste 03 (Coleta M1.1-M2.4) | Membro 3 | Ficha de Registro (Linha 3), Vídeo 3 |
-| 20/11/25 | Fase 04 | Execução das Sessões 04 e 05 (Coleta M1.1-M2.4) | Membros 4, 5 | Ficha de Registro (Linhas 4, 5), Vídeos 4, 5 |
+| 17/11/25 | Fase 03 | Finalização e revisão deste Plano de Avaliação. | Equipe | `fases03.md` (Este documento) |
+| 20/11/25 | Fase 04 | Execução da Sessão de Teste 01 (Coleta M1.1-M2.4) | Membro 1 | Ficha de Registro (Linha 1), Vídeo 1 |
+| 20/11/25 | Fase 04 | Execução da Sessão de Teste 02 (Coleta M1.1-M2.4) | Membro 2 | Ficha de Registro (Linha 2), Vídeo 2 |
+| 20/11/25 | Fase 04 | Execução da Sessão de Teste 03 (Coleta M1.1-M2.4) | Membro 3 | Ficha de Registro (Linha 3), Vídeo 3 |
+| 21/11/25 | Fase 04 | Execução das Sessões 04 e 05 (Coleta M1.1-M2.4) | Membros 4, 5 | Ficha de Registro (Linhas 4, 5), Vídeos 4, 5 |
 | 21/11/25 | Fase 04 | Coleta da M2.2 (ICPW) e consolidação dos dados. | Equipe | Planilha final com médias calculadas. |
 | 22/11/25 | Fase 04 | Análise, Comparação e Julgamento dos resultados. | Equipe | Tabelas de Julgamento (O1, O2) preenchidas. |
 | 23/11/25 | Fase 04 | Produção do Relatório Final e vídeo de apresentação. | Equipe | `fases04.md` e Vídeo Final. |
