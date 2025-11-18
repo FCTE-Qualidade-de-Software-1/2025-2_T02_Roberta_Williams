@@ -2,17 +2,18 @@
 
 ## 1. Objetivo deste Plano
 
-
-O objetivo deste documento é "produzir o plano de avaliação". Ele serve como a ponte entre a **Fase 02** (onde *especificamos* as métricas) e a **Fase 04** (onde *executamos* a coleta)
-
+O objetivo deste documento é "produzir o plano de avaliação". Ele serve como a ponte entre a **Fase 02** (onde *especificamos* as métricas) e a **Fase 04** (onde *executamos* a coleta).
 
 Este plano detalha o **método de avaliação**, os **recursos necessários** e o **cronograma de ações**, com instruções claras para que um avaliador possa executar a avaliação de forma completa e reprodutível.
+
+> **Resumo da Coleta:** O fluxo de testes deste plano será executado de forma **manual**. Todos os dados quantitativos e de checklist serão armazenados na **"Ficha de Registro (Google Sheet)"**, enquanto as evidências de execução serão capturadas em **vídeo e prints de tela**.
 
 * **Produto Alvo:** Mozilla Firefox (desktop) Versão 143.0.3.
 * **Persona Alvo:** "Estudante/Profissional multitarefa conectada".
 
-## 2. Recursos Necessários
+---
 
+## 2. Recursos Necessários
 
 Conforme especificado pelo processo de avaliação, os seguintes recursos são necessários:
 
@@ -37,8 +38,9 @@ Conforme especificado pelo processo de avaliação, os seguintes recursos são n
 ### Recursos Humanos
 * **Avaliador:** 1 membro da equipe por sessão, com conhecimento do fluxo de navegação e das métricas a serem coletadas.
 
-## 3. Método de Avaliação e Coleta de Dados
+---
 
+## 3. Método de Avaliação e Coleta de Dados
 
 Este é o **método de avaliação** que detalha o fluxo de testes e as instruções exatas para a coleta de dados de cada métrica definida na Fase 02.
 
@@ -128,8 +130,9 @@ O avaliador deve seguir o "Fluxo de Navegação Cotidiana" e coletar os dados da
 * **Evidências (Vídeo e Prints):** Toda sessão de teste (Passos 1-5) deve ser **gravada em vídeo**. Prints de tela são obrigatórios para comprovar falhas, resultados de M2.4 (Privacidade) e M2.2 (ICPW).
 * **Nomenclatura:** Os arquivos de evidência devem ser nomeados com o ID da sessão (Ex: `Sessao_01_Video.mp4`, `Sessao_01_M2.4_Print.png`).
 
-## 4. Cronograma das Ações
+---
 
+## 4. Cronograma das Ações
 
 O cronograma a seguir detalha a execução das Fases 03 e 04:
 
@@ -144,4 +147,23 @@ O cronograma a seguir detalha a execução das Fases 03 e 04:
 | 22/11/25 | Fase 04 | Análise, Comparação e Julgamento dos resultados. | Equipe | Tabelas de Julgamento (O1, O2) preenchidas. |
 | 23/11/25 | Fase 04 | Produção do Relatório Final e vídeo de apresentação. | Equipe | `fases04.md` e Vídeo Final. |
 
+---
 
+## **Equipe e Contribuições**
+
+| Matrícula | Nome completo | Contribuição (%) |
+| :--- | :--- | :--- |
+| 211061565 | [Daniel Ferreira Nunes ](https://github.com/Mach1r0) | 20 |
+| 221008632 | [Eduardo Ferreira](https://github.com/eduardoferre) | 20 |
+| 231011275 | [Eduardo Morais](https://github.com/Edumorais08) | 20 |
+| 221029249 | [Júlia Takaki](https://github.com/juliatakaki) | 20 |
+| 222037737 | [Matheus Brant](https://github.com/MatheussBrant) | 20 |
+
+---
+
+## Histórico de Versão
+
+| **Versão** | **Data** | **Descrição** | **Autor** | **Revisor** |
+| :---: | :--- | :--- | :--- | :--- |
+| `1.0` | 12/10/2025 | Criação inicial do documento | [Daniel Ferreira](https://github.com/Mach1r0) | [Eduardo Ferreira](https://github.com/eduardoferre) |
+| `1.1` | 17/11/2025 | Adição do "Resumo da Coleta" para explicitar método manual e armazenamento. | [Daniel Ferreira](https://github.com/Mach1r0)  | [Júlia Takaki](https://github.com/juliatakaki) |
