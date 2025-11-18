@@ -185,4 +185,4 @@ O cronograma a seguir detalha a execução das Fases 03 e 04:
 | :---: | :--- | :--- | :--- | :--- |
 | `1.0` | 12/10/2025 | Criação inicial do documento | [Daniel Ferreira](https://github.com/Mach1r0) | [Eduardo Ferreira](https://github.com/eduardoferre) |
 | `1.1` | 17/11/2025 | Adição do "Resumo da Coleta" para explicitar método manual e armazenamento. | [Daniel Ferreira](https://github.com/Mach1r0)  | [Júlia Takaki](https://github.com/juliatakaki) |
-| `1.2` | 12/10/2025 | EStrutura do documento | [Júlia Takaki](https://github.com/juliatakaki) | 
+| `1.2` | 17/10/2025 | EStrutura do documento | [Júlia Takaki](https://github.com/juliatakaki) | 
