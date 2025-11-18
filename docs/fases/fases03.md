@@ -2,9 +2,11 @@
 
 ## 1. Objetivo deste Plano
 
-O objetivo deste documento é "produzir o plano de avaliação". Ele serve como a ponte entre a **Fase 02** (onde *especificamos* as métricas) e a **Fase 04** (onde *executamos* a coleta).
+Esta fase tem como objetivo estruturar o Plano de Avaliação, documento que conecta a Fase 02 (Especificar a Avaliação) à Fase 04 (Executar a Avaliação).
 
-Este plano detalha o **método de avaliação**, os **recursos necessários** e o **cronograma de ações**, com instruções claras para que um avaliador possa executar a avaliação de forma completa e reprodutível.
+O plano define como as métricas serão coletadas, quais recursos serão necessários, em que sequência os testes serão realizados e como registrar as evidências, garantindo que qualquer avaliador consiga reproduzir o processo de maneira consistente.
+
+O foco da avaliação é analisar o navegador Mozilla Firefox (Desktop) – Versão 143.0.3, considerando o uso típico da persona “Estudante/Profissional multitarefa conectada”, que utiliza diversas abas, consome conteúdo multimídia, usa aplicativos web e preza por privacidade.
 
 > **Resumo da Coleta:** O fluxo de testes deste plano será executado de forma **manual**. Todos os dados quantitativos e de checklist serão armazenados na **"Ficha de Registro (Google Sheet)"**, enquanto as evidências de execução serão capturadas em **vídeo e prints de tela**.
 
@@ -13,15 +15,30 @@ Este plano detalha o **método de avaliação**, os **recursos necessários** e 
 
 ---
 
-## 2. Recursos Necessários
+## 2. Objetivo do Plano
 
-Conforme especificado pelo processo de avaliação, os seguintes recursos são necessários:
+O objetivo deste documento é definir detalhadamente o método de avaliação, instruindo como cada métrica definida na Fase 02 deverá ser medida.
+O plano inclui:
 
-### Recursos de Hardware
+- Fluxo de testes manual e reprodutível
+- Checklist e formulários de coleta (Google Sheets)
+- Procedimentos padronizados por métrica
+- Diretrizes para gravação e armazenamento de evidências
+- Recursos necessários para executar a avaliação
+> Resumo da Coleta
+A avaliação será realizada de forma manual.
+Dados quantitativos e qualitativos serão registrados na Ficha de Registro (Google Sheets).
+Prints e gravações de tela funcionarão como evidências obrigatórias.
+
+## 3. Recursos Necessários
+
+A seguir, estão listados todos os recursos para execução das sessões de coleta.
+
+### 3.1 Recursos de Hardware
 * **Dispositivo:** Notebook ou desktop (Ex: Intel i5 ou equivalente, 8GB de RAM).
 * **Rede:** Conexão Wi-Fi doméstica/banda larga padrão.
 
-### Recursos de Software
+### 3.2 Recursos de Software
 * **Sistema Operacional:** Windows 11 ou macOS.
 * **Produto:** Navegador Mozilla Firefox, versão 143.0.3 (instalação limpa).
 * **Ferramentas de Coleta:**
@@ -35,16 +52,17 @@ Conforme especificado pelo processo de avaliação, os seguintes recursos são n
     4.  Leitor de PDF (Ex: Leitor de PDF nativo ou extensão)
     5.  Utilitário (Ex: Dark Reader)
 
-### Recursos Humanos
+### 3.3 Recursos Humanos
 * **Avaliador:** 1 membro da equipe por sessão, com conhecimento do fluxo de navegação e das métricas a serem coletadas.
 
 ---
 
-## 3. Método de Avaliação e Coleta de Dados
+## 4. Método de Avaliação e Coleta de Dados
 
-Este é o **método de avaliação** que detalha o fluxo de testes e as instruções exatas para a coleta de dados de cada métrica definida na Fase 02.
+O método consiste em um fluxo estruturado de navegação, composto por seis etapas, cada uma associada às métricas da Fase 02.
+A coleta deve ser executada integralmente e na sequência descrita.
 
-### 3.1. Preparação da Sessão de Teste (Setup)
+### 4.1. Preparação da Sessão de Teste (Setup)
 
 Para garantir a consistência, cada sessão de avaliação deve começar com os seguintes passos:
 
@@ -56,7 +74,7 @@ Para garantir a consistência, cada sessão de avaliação deve começar com os 
     * **Iniciar a gravação de tela** (evidência principal).
     * Iniciar o cronômetro principal da sessão (para M1.2 e M1.3).
 
-### 3.2. Fluxo de Execução e Instruções de Coleta
+### 4.2. Fluxo de Execução e Instruções de Coleta
 
 O avaliador deve seguir o "Fluxo de Navegação Cotidiana" e coletar os dados das métricas nos momentos especificados abaixo:
 
@@ -124,7 +142,7 @@ O avaliador deve seguir o "Fluxo de Navegação Cotidiana" e coletar os dados da
     * Verificar o status de compatibilidade ("support") para o Firefox 143.
     * Calcular a porcentagem de conformidade.
 
-### 3.3. Armazenamento e Estrutura dos Dados
+## 5. Armazenamento e Estrutura dos Dados
 
 * **Ficha de Registro (Google Sheet):** Todos os dados quantitativos (ms, %, h, contagens) serão registrados em uma planilha centralizada. A estrutura da ficha já está definida na Fase 02.
 * **Evidências (Vídeo e Prints):** Toda sessão de teste (Passos 1-5) deve ser **gravada em vídeo**. Prints de tela são obrigatórios para comprovar falhas, resultados de M2.4 (Privacidade) e M2.2 (ICPW).
@@ -132,7 +150,7 @@ O avaliador deve seguir o "Fluxo de Navegação Cotidiana" e coletar os dados da
 
 ---
 
-## 4. Cronograma das Ações
+## 6. Cronograma das Ações
 
 O cronograma a seguir detalha a execução das Fases 03 e 04:
 
@@ -167,3 +185,4 @@ O cronograma a seguir detalha a execução das Fases 03 e 04:
 | :---: | :--- | :--- | :--- | :--- |
 | `1.0` | 12/10/2025 | Criação inicial do documento | [Daniel Ferreira](https://github.com/Mach1r0) | [Eduardo Ferreira](https://github.com/eduardoferre) |
 | `1.1` | 17/11/2025 | Adição do "Resumo da Coleta" para explicitar método manual e armazenamento. | [Daniel Ferreira](https://github.com/Mach1r0)  | [Júlia Takaki](https://github.com/juliatakaki) |
+| `1.2` | 12/10/2025 | EStrutura do documento | [Júlia Takaki](https://github.com/juliatakaki) | 
