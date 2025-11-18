@@ -1,4 +1,4 @@
-# 🏛️ Fase 03: Projetar a Avaliação
+# Fase 03: Projetar a Avaliação
 
 ## 1. Objetivo deste Plano
 
@@ -167,6 +167,12 @@ O cronograma a seguir detalha a execução das Fases 03 e 04:
 
 ---
 
+## Uso de IA no Desenvolvimento do Trabalho
+
+Foram utilizadas **ferramentas de IA generativas** para **apoiar pesquisas**, **formatar o texto** e **corrigir gramática/ortografia**. As saídas foram **revisadas criticamente** pela equipe, com checagem de coerência com a **Fase 1** e a  **Fase 2**.
+
+---
+
 ## **Equipe e Contribuições**
 
 | Matrícula | Nome completo | Contribuição (%) |
@@ -185,4 +191,5 @@ O cronograma a seguir detalha a execução das Fases 03 e 04:
 | :---: | :--- | :--- | :--- | :--- |
 | `1.0` | 12/10/2025 | Criação inicial do documento | [Daniel Ferreira](https://github.com/Mach1r0) | [Eduardo Ferreira](https://github.com/eduardoferre) |
 | `1.1` | 17/11/2025 | Adição do "Resumo da Coleta" para explicitar método manual e armazenamento. | [Daniel Ferreira](https://github.com/Mach1r0)  | [Júlia Takaki](https://github.com/juliatakaki) |
-| `1.2` | 17/10/2025 | EStrutura do documento | [Júlia Takaki](https://github.com/juliatakaki) | [Eduardo Morais](https://github.com/Edumorais08) |
+| `1.2` | 17/10/2025 | Estrutura do documento | [Júlia Takaki](https://github.com/juliatakaki) | [Eduardo Morais](https://github.com/Edumorais08) |
+| `1.3` | 18/10/2025 | Adição da parte de "Uso de IA no Desenvolvimento do Trabalho"  | [Eduardo Morais](https://github.com/Edumorais08) | [Matheus Brant](https://github.com/MatheussBrant) |
