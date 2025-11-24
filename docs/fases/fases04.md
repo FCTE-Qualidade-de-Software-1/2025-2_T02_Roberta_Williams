@@ -50,3 +50,21 @@ O **Mozilla Firefox versão 145.0.1** cumpriu integralmente os objetivos de aval
 | :--- | :--- |
 | **Confiabilidade** | **EXCELENTE**. O produto atingiu 100% de resiliência e zero falhas de *crash* durante o teste de estresse de quase 1 hora. |
 | **Adequação Funcional** | **EXCELENTE**. Todas as funcionalidades essenciais (CFE), padrões web (ICPW) e extensões operaram com 100% de sucesso. |
+
+## 5. Equipe e Contribuições
+
+| Matrícula | Nome completo | Contribuição (%) |
+| :--- | :--- | :--- |
+| 211061565 | [Daniel Ferreira Nunes ](https://github.com/Mach1r0) | 20 |
+| 221008632 | [Eduardo Ferreira](https://github.com/eduardoferre) | 20 |
+| 231011275 | [Eduardo Morais](https://github.com/Edumorais08) | 20 |
+| 221029249 | [Júlia Takaki](https://github.com/juliatakaki) | 20 |
+| 222037737 | [Matheus Brant](https://github.com/MatheussBrant) | 20 |
+
+
+
+## 6. Histórico de Versão
+
+| **Versão** | **Data** | **Descrição** | **Autor** | **Revisor** |
+| :---: | :--- | :--- | :--- | :--- |
+| `1.0` | 23/11/2025 | Criação inicial do documento | [Daniel Ferreira](https://github.com/Mach1r0) | [Eduardo Ferreira](https://github.com/eduardoferre) |
