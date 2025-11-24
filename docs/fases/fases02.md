@@ -8,7 +8,7 @@ Nesta segunda fase do projeto será utilizado o modelo GQM (Goal Question Metric
 2. **Question (Pergunta)** — Formula perguntas que ajudam a entender se as metas estão sendo alcançadas. Essas perguntas devem ser claras e focadas nos aspectos críticos do projeto.
 3. **Metric (Métrica)** — Identifica as métricas que serão usadas para responder às perguntas e avaliar o alcance das metas.
 
----
+
 
 ##  Medição 1 - Confiabilidade
 
@@ -53,7 +53,7 @@ A avaliação da **Confiabilidade** do Mozilla Firefox se concentrará na sua ca
 * **H1.4** **Sucesso multimídia > 98%** (720p).
 * **H1.5** **[TRA](#tra-taxa-de-resiliência-a-anomalias) ≥ 90%** dos cenários de anomalia especificados.
 
----
+
 
 #### Métricas — Detalhamento, Fórmulas e Coleta
 
@@ -102,7 +102,7 @@ A avaliação da **Confiabilidade** do Mozilla Firefox se concentrará na sua ca
 * **Q1.5** atendida se **M1.5 ≥ Bom**.
 * **O1 (Confiabilidade)** = **ATINGIDO** se **todas** Q1.1–Q1.5 ≥ Bom. Se **M1.2 = Ruim** **ou** **M1.3 = Ruim**, **NÃO ATINGIDO** (abrir *[issue](#issue)* de alta prioridade; ver critérios de acionamento na **Fase 1**).
 
----
+
 
 ##  Medição 2 - Adequação Funcional
 
@@ -186,7 +186,7 @@ A avaliação da **Funcionalidade** do Mozilla Firefox se concentrará em verifi
 * **O2 (Adequação Funcional)** = **ATINGIDO** se **≥ 3 de 4** questões **≥ Bom**.
 * Se **M2.1 (CFE) < 90%**, **NÃO ATINGIDO** (registrar **[dívida técnica](#dívida-técnica)** e plano de correção) — conforme critérios de ação da **Fase 1**.
 
----
+
 
 ## Árvore GQM
 
@@ -266,7 +266,7 @@ Observações (eventos, prints, links): ________________________________________
 
 **Conclusão O2:** *ATINGIDO / NÃO ATINGIDO*.
 
----
+
 
 ## Rastreabilidade Fase 1 → Fase 2 
 
@@ -278,7 +278,7 @@ Observações (eventos, prints, links): ________________________________________
 | Extensões/temas no fluxo                                | **O2** Adequação Funcional | Q2.3           | M2.3           |
 | Privacidade no e-commerce (privativa)                   | **O2** Adequação Funcional | Q2.4           | M2.4           |
 
----
+
 
 ## **Justificativa das Métricas**
 
@@ -289,7 +289,7 @@ Observações (eventos, prints, links): ________________________________________
 * **M2.2 ([ICPW](#icpw-índice-de-conformidade-com-padrões-web)):** **conformidade com padrões web** usando **[WPT](#wpt-web-platform-tests)** e/ou **[BCD](#bcd-browser-compat-datamdn)**.
 * **Coleta/Evidência:** uso de **[DevTools](#devtools)**, **[logs de crash](#log-de-crash)**, **Bugzilla** (rastreamento de defeitos) e relatórios nativos de **privacidade** do Firefox.
 
----
+
 
 ## **Glossário**
 
@@ -381,20 +381,19 @@ Ao reabrir o navegador após fechar/crash, **recuperar abas e janelas** do usuá
 
 Perfil fictício que representa um **tipo de usuário** (ex.: “multitarefa conectada”).
 
----
+
 
 ## Assunções e Limitações
 
 * **Assunções:** vídeo **720p**, 6–12 abas, rede estável, extensões somente as de teste, sessões independentes com cache limpo.
 * **Limitações:** mudanças de sites/APIs afetam **[ICPW](#icpw-índice-de-conformidade-com-padrões-web)/[TSOF](#tsof-taxa-de-sucesso-de-operações-funcionais)**; variação de rede pode interferir em **M1.1/M1.4**; mitigado via repetição e evidências.
 
----
+
 
 ## Uso de IA no Desenvolvimento do Trabalho
 
 Foram utilizadas **ferramentas de IA generativas** para **apoiar pesquisas**, **formatar o texto** e **corrigir gramática/ortografia**. As saídas foram **revisadas criticamente** pela equipe, com checagem de coerência com a **Fase 1**.
 
----
 
 ## **Equipe e Contribuições**
 

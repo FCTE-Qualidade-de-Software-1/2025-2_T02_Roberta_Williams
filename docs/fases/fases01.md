@@ -53,7 +53,6 @@ Os resultados desta avaliação serão usados para **tomada de decisão** em tr�
 * Se ≥ 1 **Questão de Confiabilidade** ficar **abaixo de “Regular”**, abrir *issue* de prioridade **alta** para mitigação antes do próximo ciclo.
 * Se a **Cobertura de Funcionalidades Essenciais (CFE)** do **fluxo cotidiano** < **90%**, registrar **dívida técnica** e plano de melhoria incremental.
 
----
 
 ## **Conexão com os ODS da ONU**
 
@@ -85,7 +84,7 @@ Os resultados desta avaliação serão usados para **tomada de decisão** em tr�
 | **ODS 10** Redução das desigualdades            | **10.2** Inclusão                       | Disponibilidade gratuita; personalização/extensões           | **CFE** de recursos essenciais do fluxo               |
 | **ODS 16** Paz, justiça e instituições eficazes | **16.10** Acesso à informação           | Proteção de privacidade e anti-rastreamento                  | **TSOF** do modo privativo/bloqueios (Funcionalidade) |
 
----
+
 
 ## **Modelo de Qualidade Utilizado**
 
@@ -152,7 +151,7 @@ A justificativa está no fato de que um navegador é uma ferramenta de uso cont�
 
 > **Trade-off:** priorizamos **Confiabilidade** e **Funcionalidade** pelo impacto direto no fluxo cotidiano e na missão do projeto; demais características ficam planejadas para ciclos futuros.
 
----
+
 
 ### **Classificação do Tipo de Produto**
 
@@ -179,7 +178,7 @@ De acordo com a classificação da IEEE 1062, o Firefox enquadra-se como um COTS
 * **Funcionalidade** será verificada sobretudo em Engine/JS/Layout, Mídia, Extensões e Privacidade **no fluxo cotidiano**;
 * **Confiabilidade** enfatiza Gerência de Sessão, Abas, Mídia e estabilidade sob carga (múltiplas abas/mídia).
 
----
+
 
 ## **Escopo, Profundidade e Objetos de Avaliação**
 
@@ -218,8 +217,6 @@ Os **objetos de avaliação** correspondem às funções principais do Firefox e
 
 > Essa persona direciona o **fluxo cotidiano** abaixo e os **critérios de sucesso** das métricas na Fase 2.
 
----
-
 ### **Fluxo de Navegação Cotidiana a ser Analisado (definição detalhada)**
 
 **Objetivo do fluxo:** reproduzir um uso típico de 30–60 minutos com multitarefa leve, combinando leitura, mídia, social e privacidade.
@@ -242,7 +239,7 @@ Os **objetos de avaliação** correspondem às funções principais do Firefox e
 
 > **Condições de teste padrão:** sessão contínua, rede estável doméstica, sem extensões não essenciais ativadas (apenas as necessárias ao fluxo).
 
----
+
 
 ### **Requisitantes e Partes Interessadas**
 
@@ -283,13 +280,13 @@ As principais partes interessadas abrangem os usuários finais que utilizam o Fi
 * **COTS (Commercial Off-The-Shelf)**: software “de prateleira”, pronto para uso geral, sem personalização para um cliente específico.
 * **Compatibilidade (coexistência – ISO 25010)**: capacidade de um software **funcionar bem ao lado** de outros em um mesmo ambiente (não é o mesmo que “compatível com padrões web”).
 
----
+
 
 ## Uso de IA no Desenvolvimento do Trabalho
 
 Este trabalho utilizou **ferramentas de IA generativas**  para **apoiar pesquisas** (sugestão de fontes públicas e organização de tópicos), **formatação do texto** (padronização de seções, tabelas e títulos) e **correção gramatical/ortográfica**. As saídas de IA foram **revisadas pela equipe**.
 
----
+
 
 ## **Equipe e Contribuições**
 

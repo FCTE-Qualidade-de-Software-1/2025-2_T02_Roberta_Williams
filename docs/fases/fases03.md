@@ -13,7 +13,7 @@ O foco da avaliação é analisar o navegador Mozilla Firefox (Desktop) – Vers
 * **Produto Alvo:** Mozilla Firefox (desktop) Versão 145.0.1(64-bit).
 * **Persona Alvo:** "Estudante/Profissional multitarefa conectada".
 
----
+
 
 ## 2. Objetivo do Plano
 
@@ -55,7 +55,7 @@ A seguir, estão listados todos os recursos para execução das sessões de cole
 ### 3.3 Recursos Humanos
 * **Avaliador:** 1 membro da equipe por sessão, com conhecimento do fluxo de navegação e das métricas a serem coletadas.
 
----
+
 
 ## 4. Método de Avaliação e Coleta de Dados
 
@@ -148,7 +148,7 @@ O avaliador deve seguir o "Fluxo de Navegação Cotidiana" e coletar os dados da
 * **Evidências (Vídeo e Prints):** Toda sessão de teste (Passos 1-5) deve ser **gravada em vídeo**. Prints de tela são obrigatórios para comprovar falhas, resultados de M2.4 (Privacidade) e M2.2 (ICPW).
 * **Nomenclatura:** Os arquivos de evidência devem ser nomeados com o ID da sessão (Ex: `Sessao_01_Video.mp4`, `Sessao_01_M2.4_Print.png`).
 
----
+
 
 ## 6. Cronograma das Ações
 
@@ -165,13 +165,13 @@ O cronograma a seguir detalha a execução das Fases 03 e 04:
 | 22/11/25 | Fase 04 | Análise, Comparação e Julgamento dos resultados. | Equipe | Tabelas de Julgamento (O1, O2) preenchidas. |
 | 23/11/25 | Fase 04 | Produção do Relatório Final e vídeo de apresentação. | Equipe | `fases04.md` e Vídeo Final. |
 
----
+
 
 ## Uso de IA no Desenvolvimento do Trabalho
 
 Foram utilizadas **ferramentas de IA generativas** para **apoiar pesquisas**, **formatar o texto** e **corrigir gramática/ortografia**. As saídas foram **revisadas criticamente** pela equipe, com checagem de coerência com a **Fase 1** e a  **Fase 2**.
 
----
+
 
 ## **Equipe e Contribuições**
 
@@ -183,7 +183,7 @@ Foram utilizadas **ferramentas de IA generativas** para **apoiar pesquisas**, **
 | 221029249 | [Júlia Takaki](https://github.com/juliatakaki) | 20 |
 | 222037737 | [Matheus Brant](https://github.com/MatheussBrant) | 20 |
 
----
+
 
 ## Histórico de Versão
 
