@@ -1,4 +1,4 @@
-# Fase 03: Projetar a Avaliação
+# **Fase 03 - Projetar a Avaliação**
 
 ## 1. Objetivo deste Plano
 
@@ -6,11 +6,11 @@ Esta fase tem como objetivo estruturar o Plano de Avaliação, documento que con
 
 O plano define como as métricas serão coletadas, quais recursos serão necessários, em que sequência os testes serão realizados e como registrar as evidências, garantindo que qualquer avaliador consiga reproduzir o processo de maneira consistente.
 
-O foco da avaliação é analisar o navegador Mozilla Firefox (Desktop) – Versão 143.0.3, considerando o uso típico da persona “Estudante/Profissional multitarefa conectada”, que utiliza diversas abas, consome conteúdo multimídia, usa aplicativos web e preza por privacidade.
+O foco da avaliação é analisar o navegador Mozilla Firefox (Desktop) – Versão 145.0.1(64-bit), considerando o uso típico da persona “Estudante/Profissional multitarefa conectada”, que utiliza diversas abas, consome conteúdo multimídia, usa aplicativos web e preza por privacidade.
 
 > **Resumo da Coleta:** O fluxo de testes deste plano será executado de forma **manual**. Todos os dados quantitativos e de checklist serão armazenados na **"Ficha de Registro (Google Sheet)"**, enquanto as evidências de execução serão capturadas em **vídeo e prints de tela**.
 
-* **Produto Alvo:** Mozilla Firefox (desktop) Versão 143.0.3.
+* **Produto Alvo:** Mozilla Firefox (desktop) Versão 145.0.1(64-bit).
 * **Persona Alvo:** "Estudante/Profissional multitarefa conectada".
 
 ---
@@ -40,17 +40,17 @@ A seguir, estão listados todos os recursos para execução das sessões de cole
 
 ### 3.2 Recursos de Software
 * **Sistema Operacional:** Windows 11 ou macOS.
-* **Produto:** Navegador Mozilla Firefox, versão 143.0.3 (instalação limpa).
+* **Produto:** Navegador Mozilla Firefox, versão 145.0.1 (instalação limpa).
 * **Ferramentas de Coleta:**
     * Planilha de coleta (Google Sheets) para a "Ficha de Registro".
-    * Software de gravação de tela (Ex: OBS Studio, QuickTime) para capturar as evidências em vídeo.
+    * OBS Studio para capturar as evidências em vídeo.
     * Cronômetro (físico ou de software).
 * **Extensões de Teste (conforme M2.3):**
-    1.  Bloqueador de anúncios (Ex: uBlock Origin)
-    2.  Tradutor (Ex: Google Tradutor)
-    3.  Gerenciador de Senhas (Ex: Bitwarden)
-    4.  Leitor de PDF (Ex: Leitor de PDF nativo ou extensão)
-    5.  Utilitário (Ex: Dark Reader)
+    1.  Bloqueador de anúncios (uBlock Origin)
+    2.  Tradutor (To Google Translate)
+    3.  Gerenciador de Senhas (Bitwarden Password Manager)
+    4.  Sideberry
+    5.  Tree Style Tab 
 
 ### 3.3 Recursos Humanos
 * **Avaliador:** 1 membro da equipe por sessão, com conhecimento do fluxo de navegação e das métricas a serem coletadas.
@@ -66,7 +66,7 @@ A coleta deve ser executada integralmente e na sequência descrita.
 
 Para garantir a consistência, cada sessão de avaliação deve começar com os seguintes passos:
 
-1.  **Instalação Limpa:** Iniciar com o Firefox 143.0.3.
+1.  **Instalação Limpa:** Iniciar com o Firefox 145.0.1.
 2.  **Limpeza de Dados:** Limpar todo o cache, cookies e histórico de navegação.
 3.  **Extensões:** Desativar todas as extensões, exceto as 5 listadas para o teste da M2.3 (que só devem ser ativadas no Passo 3 do fluxo).
 4.  **Início da Coleta:**
@@ -139,7 +139,7 @@ O avaliador deve seguir o "Fluxo de Navegação Cotidiana" e coletar os dados da
     * Esta métrica é coletada fora do fluxo de usuário.
     * Acessar o **MDN Browser-Compat-Data (BCD)**.
     * Listar 10 APIs/recursos web essenciais usados no fluxo (Ex: "HTML5 Video", "Fetch API", "CSS Flexbox").
-    * Verificar o status de compatibilidade ("support") para o Firefox 143.
+    * Verificar o status de compatibilidade ("support") para o Firefox 145.
     * Calcular a porcentagem de conformidade.
 
 ## 5. Armazenamento e Estrutura dos Dados
@@ -193,3 +193,7 @@ Foram utilizadas **ferramentas de IA generativas** para **apoiar pesquisas**, **
 | `1.1` | 17/11/2025 | Adição do "Resumo da Coleta" para explicitar método manual e armazenamento. | [Daniel Ferreira](https://github.com/Mach1r0)  | [Júlia Takaki](https://github.com/juliatakaki) |
 | `1.2` | 17/10/2025 | Estrutura do documento | [Júlia Takaki](https://github.com/juliatakaki) | [Eduardo Morais](https://github.com/Edumorais08) |
 | `1.3` | 18/10/2025 | Adição da parte de "Uso de IA no Desenvolvimento do Trabalho"  | [Eduardo Morais](https://github.com/Edumorais08) | [Matheus Brant](https://github.com/MatheussBrant) |
+
+
+
+

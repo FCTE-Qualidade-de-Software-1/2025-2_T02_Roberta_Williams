@@ -1,20 +1,14 @@
--
-
-## 2. Relatório Final da Fase 04 com Evidências
-
-Este é o modelo final do seu relatório com os links de evidência e a conclusão da avaliação:
-
-# 📝 Relatório da Fase 04: Execução, Medidas e Julgamento Final
+# **Fase 04 - Execução e Resultados da Avaliação**
 
 ## 1. Contexto e Objetivo
 
-Este documento apresenta os resultados da execução da avaliação do produto de software **Mozilla Firefox (versão 143.0.3)**, conforme o plano desenvolvido na Fase 03. O objetivo é julgar a qualidade do produto com base nas características de **Confiabilidade** (Medição 1) e **Adequação Funcional** (Medição 2), utilizando os critérios e níveis de pontuação definidos na Fase 02.
+Este documento apresenta os resultados da execução da avaliação do produto de software **Mozilla Firefox (versão 145.0.1)**, conforme o plano desenvolvido na Fase 03. O objetivo é julgar a qualidade do produto com base nas características de **Confiabilidade** (Medição 1) e **Adequação Funcional** (Medição 2), utilizando os critérios e níveis de pontuação definidos na Fase 02.
 
 * **Sessão de Teste Executada:** 1 (Composta por 5 passos contínuos).
 * **Tempo Total da Sessão:** $\ge 47$ min e $20$ s
 * **Falhas (Crashes) Registradas:** 0
 
----
+
 
 ## 2. Medição 1: Confiabilidade
 
@@ -35,7 +29,7 @@ Esta seção apresenta as métricas relacionadas à estabilidade, robustez e res
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **M1.5 (TRA)** | Taxa de Resiliência a Anomalias. | 5 | 5 | **EXCELENTE** | [oDTmU79nQlI](https://youtu.be/oDTmU79nQlI) (Passo 5) |
 
----
+
 
 ## 3. Medição 2: Adequação Funcional
 
@@ -46,11 +40,11 @@ Esta seção apresenta as métricas relacionadas à estabilidade, robustez e res
 | **M2.3 (Extensões)** | Compatibilidade de Extensões. | $5/5$ Extensões Suportadas | $\ge 90\% \implies$ Excelente | **EXCELENTE** | [dPNvXrwhCo0](https://youtu.be/dPNvXrwhCo0) (Passo 3) |
 | **M2.4 (TSOF Privativo)** | Taxa de Sucesso de Operações. | $100\%$ | $\ge 95\% \implies$ Excelente | **EXCELENTE** | [9UhTi7YE9GM](https://youtu.be/9UhTi7YE9GM) (Passo 4) |
 
----
+
 
 ## 4. Conclusão da Avaliação (Julgamento Final)
 
-O **Mozilla Firefox versão 143.0.3** cumpriu integralmente os objetivos de avaliação definidos na Fase 01, apresentando um resultado de **QUALIDADE EXCELENTE** nas características priorizadas.
+O **Mozilla Firefox versão 145.0.1** cumpriu integralmente os objetivos de avaliação definidos na Fase 01, apresentando um resultado de **QUALIDADE EXCELENTE** nas características priorizadas.
 
 | Característica de Qualidade | Julgamento Consolidado |
 | :--- | :--- |

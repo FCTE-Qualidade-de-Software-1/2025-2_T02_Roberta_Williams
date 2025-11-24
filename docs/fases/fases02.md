@@ -1,4 +1,4 @@
-# 📊 Fase 02 - Especificação da Avaliação
+# **Fase 02 - Especificação da Avaliação**
 
 ##  Modelo GQM (Goal-Question-Metric)
 
@@ -31,7 +31,7 @@ Analisar a **robustez e estabilidade** do Mozilla Firefox, bem como sua capacida
 * **Foco ISO/IEC 25010:** **Confiabilidade** (robustez, estabilidade, recuperabilidade)
 * **Ponto de Vista (POV):** Persona *“multitarefa conectada”* (definida na **Fase 1**)
 * **Contexto (Fluxo):** sessão de **30–60 min** com **6–12 abas**, conteúdo misto (**notícia + streaming 720p + rede social**), produtividade (doc online) e **janela privativa** (ver **Fluxo Cotidiano** na Fase 1)
-* **Objeto de Avaliação:** Firefox **143.0.3** (desktop): gerenciamento de **abas/sessão**, rede/mídia, engine/renderização/**JS**
+* **Objeto de Avaliação:** Firefox **145.0.1** (desktop): gerenciamento de **abas/sessão**, rede/mídia, engine/renderização/**JS**
 
 ### Questions (Perguntas), Métricas, Justificativas e Hipóteses
 
@@ -198,9 +198,9 @@ A avaliação da **Funcionalidade** do Mozilla Firefox se concentrará em verifi
 
 **Preparação (antes de cada sessão):**
 
-1. **Instalar/confirmar** Firefox **143.0.3** (desktop); limpar **cache/cookies/histórico**.
+1. **Instalar/confirmar** Firefox **145.0.1** (desktop); limpar **cache/cookies/histórico**.
 2. Garantir **rede doméstica estável**; desativar extensões não essenciais.
-3. Configurar **5 extensões de teste** (bloqueador, tradutor, senhas, leitor PDF, utilidade).
+3. Configurar **5 extensões de teste**.
 4. Preparar **instrumentos de coleta** (ver abaixo “Formas simples de registrar os dados”).
 
 
@@ -208,7 +208,7 @@ A avaliação da **Funcionalidade** do Mozilla Firefox se concentrará em verifi
 
 
 ```
-ID da sessão: ________   Data: ____/____/______   SO: __________   Versão Firefox: 143.0.3
+ID da sessão: ________   Data: ____/____/______   SO: __________   Versão Firefox: 145.0.1
 Abas (média): ____      Vídeo: ( ) 720p  ( ) 1080p
 
 M1.1 Tempo resposta (ms): ______

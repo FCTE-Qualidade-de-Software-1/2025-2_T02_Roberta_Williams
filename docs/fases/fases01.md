@@ -1,4 +1,4 @@
-# **Fase 1: Estabelecer os Requisitos da Avaliação**
+# **Fase 1 - Estabelecer os Requisitos da Avaliação**
 
 ## **Contexto do Projeto**
 
