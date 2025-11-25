@@ -59,28 +59,28 @@ A avaliação da **Confiabilidade** do Mozilla Firefox se concentrará na sua ca
 
 * **M1.1 — Tempo de Resposta da [UI](#ui-interface-do-usuário) (ms)**
   **Q:** Q1.1 • **Tipo:** tempo • **Fórmula:** média(tempos de interação)
-  **Unidade:** ms • **Coleta:** [DevTools](#devtools) / cronômetro (10 interações/sessão) • **Amostragem:** 5 sessões
+  **Unidade:** ms • **Coleta:** **Firefox Profiler** (10 interações/sessão) • **Amostragem:** **1 sessão**
   **Condições:** 6–12 abas, 1 aba com vídeo 720p, alternância rápida
 
 * **M1.2 — Taxa de Falhas por Hora**
   **Q:** Q1.2 • **Tipo:** taxa • **Fórmula:** nº falhas / horas de uso
-  **Unidade:** falhas/h • **Coleta:** registro manual / [log de crash](#log-de-crash) • **Amostragem:** 5 sessões de 60 min
+  **Unidade:** falhas/h • **Coleta:** registro manual / [log de crash](#log-de-crash) • **Amostragem:** **1 sessão** de 60 min
   **Condições:** fluxo completo contínuo
 
 * **M1.3 — [MTBF](#mtbf-mean-time-between-failures) (h)**
   **Q:** Q1.2/Q1.3 • **Tipo:** tempo médio • **Fórmula:** horas totais / nº falhas
-  **Unidade:** h • **Coleta:** registro do tempo até falha • **Amostragem:** 5 execuções
+  **Unidade:** h • **Coleta:** registro do tempo até falha • **Amostragem:** **1 sessão** de 60 min
   **Condições:** rede doméstica estável
 
 * **M1.4 — Sucesso Multimídia (%)**
   **Q:** Q1.4 • **Tipo:** proporção • **Fórmula:** (reproduções OK / tentativas) × 100
-  **Unidade:** % • **Coleta:** observação (10 vídeos de 5 min) • **Amostragem:** 3 sessões
+  **Unidade:** % • **Coleta:** **observação contínua de 1 vídeo de longa duração (30 min) sob carga.** • **Amostragem:** **1 sessão**
   **Condições:** streaming 720p contínuo
 
 * **M1.5 — [TRA](#tra-taxa-de-resiliência-a-anomalias): Taxa de Resiliência a Anomalias (%)**
   **Q:** Q1.5 • **Tipo:** proporção • **Fórmula:** (cenários anômalos suportados / cenários testados) × 100
-  **Unidade:** % • **Coleta:** executar 5 cenários (queda de rede breve, pico CPU, baixa RAM, erro 500, timeout) • **Amostragem:** 3 sessões
-  **Condições:** repetir cada cenário 3× e registrar sucesso/degeneração
+  **Unidade:** % • **Coleta:** executar 5 cenários (queda de rede breve, pico CPU, baixa RAM, erro 500, timeout) • **Amostragem:** **1 sessão** (1x por cenário)
+  **Condições:** registrar sucesso/degeneração
 
 ##### Limiar de Julgamento (O1)
 
@@ -151,22 +151,22 @@ A avaliação da **Funcionalidade** do Mozilla Firefox se concentrará em verifi
 
 * **M2.1 — [CFE](#cfe-cobertura-de-funcionalidades-essenciais): Cobertura de Funcionalidades Essenciais (%)**
   **Q:** Q2.1 • **Tipo:** proporção • **Fórmula:** (funções corretas / funções testadas) × 100
-  **Unidade:** % • **Coleta:** checklist do **fluxo** (20 tarefas/sessão) • **Amostragem:** 5 sessões
+  **Unidade:** % • **Coleta:** checklist do **fluxo** (tarefas essenciais). • **Amostragem:** **1 sessão**
   **Condições:** 4 etapas do **fluxo**
 
 * **M2.2 — [ICPW](#icpw-índice-de-conformidade-com-padrões-web): Índice de Conformidade com Padrões Web (%)**
-  **Q:** Q2.2 • **Tipo:** índice • **Fórmula:** cobertura de APIs/recursos do **fluxo** × 100 (via **[WPT](#wpt-web-platform-tests)/[BCD](#bcd-browser-compat-datamdn)** ou matriz própria)
-  **Unidade:** % • **Coleta:** verificação de compatibilidade nas APIs/recursos usados • **Amostragem:** conjunto de APIs do **fluxo**
+  **Q:** Q2.2 • **Tipo:** índice • **Fórmula:** cobertura de APIs/recursos do **fluxo** × 100 (via **[BCD](#bcd-browser-compat-datamdn)**)
+  **Unidade:** % • **Coleta:** verificação de compatibilidade nas APIs/recursos usados • **Amostragem:** **1 sessão** (10 APIs/recursos)
   **Condições:** páginas com recursos avançados de layout/**JS**/mídia
 
 * **M2.3 — Compatibilidade de Extensões (%)**
   **Q:** Q2.3 • **Tipo:** proporção • **Fórmula:** (extensões OK / total testado) × 100
-  **Unidade:** % • **Coleta:** testar **5 extensões** (bloqueador, tradutor, senhas, leitor PDF, utilidade) • **Amostragem:** mín. 3 sessões
+  **Unidade:** % • **Coleta:** testar **5 extensões** (Bitwarden Password Manager, Sidebery, To Google Translate, Tree Style Tab, uBlock Origin). • **Amostragem:** **1 sessão**
   **Condições:** extensões ativas apenas nas etapas pertinentes
 
 * **M2.4 — [TSOF](#tsof-taxa-de-sucesso-de-operações-funcionais) (Modo Privativo) (%)**
   **Q:** Q2.4 • **Tipo:** proporção • **Fórmula:** (operações bem-sucedidas / tentativas) × 100
-  **Unidade:** % • **Coleta:** janela privativa em **3 e-commerces** (login, navegação, checkout simulado, relatório de bloqueios) • **Amostragem:** 10 tentativas/sessão × 3 sessões
+  **Unidade:** % • **Coleta:** janela privativa em **2 sites** (login/navegação, relatório de bloqueios). • **Amostragem:** **1 sessão**
   **Condições:** usar o painel nativo de proteções
 
 ##### Limiar de Julgamento (O2)
