@@ -157,10 +157,10 @@ O cronograma a seguir detalha a execução das Fases 03 e 04:
 | Data (Exemplo) | Fase | Atividade | Responsáveis | Entregável |
 | :--- | :--- | :--- | :--- | :--- |
 | 17/11/25 | Fase 03 | Finalização e revisão deste Plano de Avaliação. | Equipe | `fases03.md` (Este documento) |
-| 20/11/25 | Fase 04 | Execução da Sessão de Teste 01 (Coleta M1.1-M2.4) | Membro 1 | Ficha de Registro (Linha 1), Vídeo 1 |
-| 20/11/25 | Fase 04 | Execução da Sessão de Teste 02 (Coleta M1.1-M2.4) | Membro 2 | Ficha de Registro (Linha 2), Vídeo 2 |
-| 20/11/25 | Fase 04 | Execução da Sessão de Teste 03 (Coleta M1.1-M2.4) | Membro 3 | Ficha de Registro (Linha 3), Vídeo 3 |
-| 21/11/25 | Fase 04 | Execução das Sessões 04 e 05 (Coleta M1.1-M2.4) | Membros 4, 5 | Ficha de Registro (Linhas 4, 5), Vídeos 4, 5 |
+| 20/11/25 | Fase 04 | Execução da Sessão de Teste 01 (Coleta M2.1) | Membro 1 | Ficha de Registro (Linha 1), Vídeo 1 |
+| 20/11/25 | Fase 04 | Execução da Sessão de Teste 02 (Coleta M1.4, M1.1, M1.2, M1.3) | Membro 2 | Ficha de Registro (Linha 2), Vídeo 2 |
+| 20/11/25 | Fase 04 | Execução da Sessão de Teste 03 (Coleta M2.1, M2.3) | Membro 3 | Ficha de Registro (Linha 3), Vídeo 3 |
+| 21/11/25 | Fase 04 | Execução das Sessões 04 e 05 (Coleta M2.4, M1.5) | Membros 4, 5 | Ficha de Registro (Linhas 4, 5), Vídeos 4, 5 |
 | 21/11/25 | Fase 04 | Coleta da M2.2 (ICPW) e consolidação dos dados. | Equipe | Planilha final com médias calculadas. |
 | 22/11/25 | Fase 04 | Análise, Comparação e Julgamento dos resultados. | Equipe | Tabelas de Julgamento (O1, O2) preenchidas. |
 | 23/11/25 | Fase 04 | Produção do Relatório Final e vídeo de apresentação. | Equipe | `fases04.md` e Vídeo Final. |
@@ -189,10 +189,12 @@ Foram utilizadas **ferramentas de IA generativas** para **apoiar pesquisas**, **
 
 | **Versão** | **Data** | **Descrição** | **Autor** | **Revisor** |
 | :---: | :--- | :--- | :--- | :--- |
-| `1.0` | 12/10/2025 | Criação inicial do documento | [Daniel Ferreira](https://github.com/Mach1r0) | [Eduardo Ferreira](https://github.com/eduardoferre) |
+| `1.0` | 12/11/2025 | Criação inicial do documento | [Daniel Ferreira](https://github.com/Mach1r0) | [Eduardo Ferreira](https://github.com/eduardoferre) |
 | `1.1` | 17/11/2025 | Adição do "Resumo da Coleta" para explicitar método manual e armazenamento. | [Daniel Ferreira](https://github.com/Mach1r0)  | [Júlia Takaki](https://github.com/juliatakaki) |
-| `1.2` | 17/10/2025 | Estrutura do documento | [Júlia Takaki](https://github.com/juliatakaki) | [Eduardo Morais](https://github.com/Edumorais08) |
-| `1.3` | 18/10/2025 | Adição da parte de "Uso de IA no Desenvolvimento do Trabalho"  | [Eduardo Morais](https://github.com/Edumorais08) | [Matheus Brant](https://github.com/MatheussBrant) |
+| `1.2` | 17/11/2025 | Estrutura do documento | [Júlia Takaki](https://github.com/juliatakaki) | [Eduardo Morais](https://github.com/Edumorais08) |
+| `1.3` | 18/11/2025 | Adição da parte de "Uso de IA no Desenvolvimento do Trabalho"  | [Eduardo Morais](https://github.com/Edumorais08) | [Matheus Brant](https://github.com/MatheussBrant) |
+| `1.4` | 25/11/2025 | Ajuste no cronograma  | [Eduardo Morais](https://github.com/Edumorais08) | [Daniel Ferreira](https://github.com/Mach1r0) |
+
 
 
 
