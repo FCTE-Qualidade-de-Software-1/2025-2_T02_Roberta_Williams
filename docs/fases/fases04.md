@@ -20,7 +20,7 @@ Esta seção apresenta as métricas relacionadas à estabilidade, robustez e res
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **M1.1 (Resposta UI)** | Latência média na troca de abas sob carga. | $\mathbf{400}$ ms | $\le 500$ ms $\implies$ Bom | **BOM** | [7NKUZkIy4Ts](https://youtu.be/7NKUZkIy4Ts) (Passo 2) |
 | **M1.2 (Taxa de Falhas)** | Falhas por unidade de tempo ($\lambda$). | $0$ Falhas / $47$ min | Taxa $\le 0.025$ $\implies$ Excelente | **EXCELENTE** | [7NKUZkIy4Ts](https://youtu.be/7NKUZkIy4Ts) |
-| **M1.3 (MTBF)** | Tempo Médio Entre Falhas. | $> 47$ min $20$ s | MTBF $\ge 48$ min $\implies$ Excelente | **EXCELENTE** | [7NKUZkIy4Ts](https://youtu.be/7NKUZkIy4Ts) |
+| **M1.3 (MTBF)** | Tempo Médio Entre Falhas. | Não observado neste ciclo (0 falhas em $\approx 47$ min) | Sem estimativa confiável de MTBF (janela curta e sem falhas) | **NÃO CONCLUSIVO** | [7NKUZkIy4Ts](https://youtu.be/7NKUZkIy4Ts) |
 | **M1.4 (Sucesso Multimídia)** | Porcentagem de reproduções sem falha. | $100\%$ | $\ge 98\% \implies$ Excelente | **EXCELENTE** | [7NKUZkIy4Ts](https://youtu.be/7NKUZkIy4Ts) |
 
 ### 2.2. Métrica de Resiliência a Anomalias (M1.5 - TRA)
@@ -28,6 +28,34 @@ Esta seção apresenta as métricas relacionadas à estabilidade, robustez e res
 | Métrica | Descrição | Cenários Executados | Cenários Suportados | Julgamento | Evidência (Link YouTube) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **M1.5 (TRA)** | Taxa de Resiliência a Anomalias. | 5 | 5 | **EXCELENTE** | [oDTmU79nQlI](https://youtu.be/oDTmU79nQlI) (Passo 5) |
+
+
+### 2.3. Julgamento das Questões de Confiabilidade (Q1.1–Q1.5)
+
+Com base nas métricas M1.1–M1.5, o julgamento das questões de Confiabilidade fica:
+
+- **Q1.1 – Estabilidade sob carga (6–12 abas + 720p):**  
+  Evidência: M1.1 = 400 ms (**Bom**) + ausência de travamentos no fluxo contínuo.  
+  **Julgamento da questão:** **Atendida (Bom)**.
+
+- **Q1.2 – Frequência de falhas/travamentos:**  
+  Evidência: M1.2 = 0 falhas em ≈47 min de uso contínuo; Taxa de falhas estimada = 0 falhas/h na sessão.  
+  **Julgamento da questão:** **Atendida (Excelente para esta sessão)**, com a ressalva de que a duração total do teste é limitada.
+
+- **Q1.3 – Recuperação rápida de sessão após falha (MTTR/MTBF):**  
+  Evidência: não houve falhas/crashes na sessão, portanto não foi possível observar diretamente o comportamento de recuperação de sessão nem estimar MTBF com base em múltiplas falhas. M1.3 foi registrado como **“não observado neste ciclo”**.  
+  **Julgamento da questão:** **Parcialmente atendida** – não foram encontradas evidências de mau comportamento, mas também não há validação experimental direta de MTTR neste ciclo. A questão permanece aberta para ciclos futuros com injeção controlada de falhas.
+
+- **Q1.4 – Sucesso na reprodução multimídia 720p:**  
+  Evidência: M1.4 = 100% de sucesso durante ≈30 min de streaming sem interrupções perceptíveis.  
+  **Julgamento da questão:** **Atendida (Excelente)**.
+
+- **Q1.5 – Resiliência a anomalias (TRA):**  
+  Evidência: M1.5 = 5/5 cenários de anomalia suportados (queda de rede breve, pico de CPU, baixa RAM, erro 500 e timeout).  
+  **Julgamento da questão:** **Atendida (Excelente)**.
+
+**Conclusão parcial de O1 (Confiabilidade):**  
+As questões Q1.1, Q1.2, Q1.4 e Q1.5 foram atendidas com níveis Bom/Excelente. A questão Q1.3 foi apenas **parcialmente atendida**, pois não houve falha que permitisse medir diretamente o tempo de recuperação de sessão (MTTR). Assim, o julgamento de Confiabilidade é **fortemente positivo**, mas explicitamente **limitado pela ausência de evidência experimental direta de recuperação de sessão**, conforme discutido na Seção 5.1.
 
 
 
@@ -127,12 +155,38 @@ Teste de compatibilidade de APIs e recursos modernos com a versão do navegador 
 
 ## 5. Conclusão da Avaliação (Julgamento Final)
 
-O **Mozilla Firefox versão 145.0.1** cumpriu integralmente os objetivos de avaliação definidos na Fase 01, apresentando um resultado de **QUALIDADE EXCELENTE** nas características priorizadas.
+O **Mozilla Firefox versão 145.0.1** apresentou resultados **muito fortes** nas duas características priorizadas (**Confiabilidade** e **Adequação Funcional**), de acordo com o escopo e o fluxo definidos na Fase 01. Ao mesmo tempo, a análise GQM evidenciou **limitações importantes** na estimativa de MTBF/MTTR, que são explicitadas a seguir.
+
+### 5.1. Síntese GQM: Métrica → Questão → Objetivo
+
+- Para **Adequação Funcional (O2)**, todas as questões Q2.1–Q2.4 foram atendidas com métricas em nível **Excelente** (CFE = 100%, ICPW = 10/10, Extensões 5/5, TSOF privativo = 100%), e a execução seguiu o plano da Fase 03.  
+  ⇒ **Julgamento de O2:** **ATINGIDO (Excelente)** dentro do escopo do fluxo cotidiano definido.
+
+- Para **Confiabilidade (O1)**:
+  - Q1.1 (estabilidade sob carga), Q1.2 (frequência de falhas), Q1.4 (multimídia) e Q1.5 (resiliência a anomalias) foram **claramente atendidas**, com M1.1, M1.2, M1.4 e M1.5 em nível **Bom/Excelente**.
+  - Q1.3 (recuperação rápida de sessão) foi **parcialmente atendida**, pois:
+    - não houve falhas/crashes na sessão, o que é um sinal positivo de estabilidade;
+    - porém, isso impediu a medição direta do MTTR e a estimativa confiável de **MTBF (M1.3)** conforme os limiares de horas definidos na Fase 02.
+  - M1.3 foi, portanto, classificada como **“não conclusiva neste ciclo”**, conforme a Tabela da Seção 2.1.
+
+  ⇒ **Julgamento de O1:** **ATINGIDO com ressalvas** – a Confiabilidade observada é alta no fluxo cotidiano testado, mas a **capacidade de recuperação de sessão após falhas** não foi validada experimentalmente nesta avaliação.
+
+### 5.2. Julgamento Consolidado por Característica
 
 | Característica de Qualidade | Julgamento Consolidado |
 | :--- | :--- |
-| **Confiabilidade** | **EXCELENTE**. O produto atingiu 100% de resiliência e zero falhas de *crash* durante o teste de estresse de quase 1 hora. |
-| **Adequação Funcional** | **EXCELENTE**. Todas as funcionalidades essenciais (CFE), padrões web (ICPW) e extensões operaram com 100% de sucesso. |
+| **Confiabilidade** | **MUITO BOA**, com **O1 atingido** para o fluxo cotidiano e todos os cenários de anomalia planejados, mas com **ressalva explícita** sobre a ausência de medição direta de MTBF/MTTR (Q1.3 parcialmente atendida). |
+| **Adequação Funcional** | **EXCELENTE**. Todas as funcionalidades essenciais (CFE), padrões web (ICPW), extensões e operações em modo privativo atingiram 100% de sucesso, conforme os critérios definidos na Fase 02. |
+
+### 5.3. Limitações da Avaliação
+
+A avaliação realizada segue fielmente o que foi definido nas Fases 01–03, mas possui limitações intrínsecas que precisam ser registradas:
+
+- A janela de observação de aproximadamente **47 minutos** sem falhas é suficiente para caracterizar um cenário de uso estável, mas **não** para estimar de forma robusta um **MTBF em horas** como previsto nos limiares mais agressivos da Fase 02.
+- A ausência de falhas durante a sessão é uma evidência positiva de estabilidade, porém impede a observação **empírica** do comportamento de **recuperação de sessão** (MTTR) após um crash real.
+- Os resultados de **Confiabilidade** são, portanto, **muito positivos dentro do contexto testado**, mas devem ser interpretados como válidos **para o fluxo cotidiano e o ambiente de teste especificados**, e não como uma generalização absoluta para todos os cenários possíveis de uso do navegador.
+
+Essas limitações não invalidam os resultados, mas deixam claro o **alcance** da avaliação realizada, mantendo o alinhamento com o modelo **GQM** definido na Fase 02 e com o contexto de uso descrito na Fase 01.
 
 ## 6. Equipe e Contribuições
 
@@ -151,3 +205,4 @@ O **Mozilla Firefox versão 145.0.1** cumpriu integralmente os objetivos de aval
 | **Versão** | **Data** | **Descrição** | **Autor** | **Revisor** |
 | :---: | :--- | :--- | :--- | :--- |
 | `1.0` | 23/11/2025 | Criação inicial do documento | [Daniel Ferreira](https://github.com/Mach1r0) | [Eduardo Ferreira](https://github.com/eduardoferre) |
+| `1.1` | 28/11/2025 | Revisão da análise de resultados: ajuste do julgamento de M1.3 (MTBF) para “não conclusivo”, explicitação das limitações da medição de Confiabilidade e reescrita da conclusão GQM destacando a relação métrica → questão → objetivo sem alterar os dados coletados. | [Matheus Brant](https://github.com/MatheussBrant) | [Daniel Ferreira](https://github.com/Mach1r0) |

@@ -71,6 +71,8 @@ A avaliação da **Confiabilidade** do Mozilla Firefox se concentrará na sua ca
   **Q:** Q1.2/Q1.3 • **Tipo:** tempo médio • **Fórmula:** horas totais / nº falhas
   **Unidade:** h • **Coleta:** registro do tempo até falha • **Amostragem:** **1 sessão** de 60 min
   **Condições:** rede doméstica estável
+  > **Observação importante:** em sessões em que **nenhuma falha ocorre** dentro da janela de observação, o MTBF não pode ser estimado de forma confiável. Nesses casos, a métrica M1.3 será registrada como **“não observada neste ciclo”** e a **Questão Q1.3** será analisada de forma **qualitativa**, considerando os mecanismos de restauração de sessão do Firefox e a possibilidade de ciclos futuros de medição com indução controlada de falha.
+
 
 * **M1.4 — Sucesso Multimídia (%)**
   **Q:** Q1.4 • **Tipo:** proporção • **Fórmula:** (reproduções OK / tentativas) × 100
@@ -387,6 +389,7 @@ Perfil fictício que representa um **tipo de usuário** (ex.: “multitarefa con
 
 * **Assunções:** vídeo **720p**, 6–12 abas, rede estável, extensões somente as de teste, sessões independentes com cache limpo.
 * **Limitações:** mudanças de sites/APIs afetam **[ICPW](#icpw-índice-de-conformidade-com-padrões-web)/[TSOF](#tsof-taxa-de-sucesso-de-operações-funcionais)**; variação de rede pode interferir em **M1.1/M1.4**; mitigado via repetição e evidências.
+* **Sessões sem falhas:** em ciclos em que **nenhum crash** ocorre na janela de teste, **M1.3 (MTBF)** e o componente quantitativo de **Q1.3** ficam **sem estimativa direta**, sendo tratados como **evidência parcial** de boa estabilidade, mas **não prova** de atendimento aos limiares mais agressivos (ex.: > 24h ou > 48h). Essa limitação deve ser explicitamente discutida na Fase 4.
 
 
 
@@ -416,3 +419,4 @@ Foram utilizadas **ferramentas de IA generativas** para **apoiar pesquisas**, **
 | `1.2` | 21/10/2025 | Adição de Perguntas, Métricas, Justificativas e Hipóteses para Funcionalidade e Confiabilidade | [Daniel Ferreira](https://github.com/Mach1r0) | [Eduardo Ferreira](https://github.com/eduardoferre) |
 | `1.3` | 24/10/2025 | Modificação das Perguntas, Métricas e Adição de diagrama e tabelas| [Matheus Brant](https://github.com/MatheussBrant) | [Eduardo Morais](https://github.com/Edumorais08) |
 | `1.4` | 24/10/2025 | Adicionando tabela de contribuição | [Daniel Ferreira](https://github.com/Mach1r0) | [Matheus Brant](https://github.com/MatheussBrant) |
+| `1.5` | 28/11/2025 | Ajuste nos critérios de Confiabilidade: clarificação da relação entre Q1.3 e M1.3 (MTBF), inclusão da possibilidade de julgamento “não conclusivo” quando não houver falhas e alinhamento do texto de julgamento de O1 com essa condição. | [Matheus Brant](https://github.com/MatheussBrant) | [Eduardo Ferreira](https://github.com/eduardoferre) |

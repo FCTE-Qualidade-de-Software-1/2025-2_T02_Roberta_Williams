@@ -103,6 +103,11 @@ O avaliador deve seguir o "Fluxo de Navegação Cotidiana" e coletar os dados da
         1.  Parar o cronômetro da sessão. Registrar o tempo como "MTBF" (M1.3).
         2.  Registrar '1' na contagem de falhas (M1.2).
         3.  Fazer print da tela de erro/log de crash.
+        * Se **não ocorrer falha** durante toda a sessão:
+        1. Registrar o tempo total observado (em minutos) como **“Tempo observado sem falhas”**.
+        2. Registrar M1.2 como `0 falhas/h` (taxa de falhas estimada) e marcar M1.3 como **“não observada neste ciclo”**.
+        3. Adicionar uma observação na Ficha de Registro indicando que **Q1.3 será analisada qualitativamente na Fase 4**, à luz da ausência de falhas e dos mecanismos de restauração de sessão do Firefox.
+
 
 #### Passo 3: Produtividade (App Web) (Duração: 10 min)
 
@@ -194,6 +199,8 @@ Foram utilizadas **ferramentas de IA generativas** para **apoiar pesquisas**, **
 | `1.2` | 17/11/2025 | Estrutura do documento | [Júlia Takaki](https://github.com/juliatakaki) | [Eduardo Morais](https://github.com/Edumorais08) |
 | `1.3` | 18/11/2025 | Adição da parte de "Uso de IA no Desenvolvimento do Trabalho"  | [Eduardo Morais](https://github.com/Edumorais08) | [Matheus Brant](https://github.com/MatheussBrant) |
 | `1.4` | 25/11/2025 | Ajuste no cronograma  | [Eduardo Morais](https://github.com/Edumorais08) | [Daniel Ferreira](https://github.com/Mach1r0) |
+| `1.5` | 28/11/2025 | Detalhamento do plano de avaliação para M1.3/MTBF e Q1.3: inclusão das instruções de registro em caso de ausência de falhas, mantendo a rastreabilidade com as métricas da Fase 2 e a reprodutibilidade do plano. | [Matheus Brant](https://github.com/MatheussBrant) | [Júlia Takaki](https://github.com/juliatakaki) |
+
 
 
 
